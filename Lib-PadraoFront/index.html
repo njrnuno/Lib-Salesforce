@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LIB - Salesforce</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <link rel="stylesheet" type="text/css" href="css/Parametros.css">
+    <link rel="stylesheet" type="text/css" href="css/prism.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/icones/font-awesome.css">
+	
+  </head>
+  <body>
+  
+    <!-- menu lateral -->
+    <div class="bg-menu-lateral">
+      <!-- menu mobile -->
+      <div class="menumobile">
+        <a href="#" id="menumobile"><img src="img/btn-mobile.jpg" alt=""></a>
+      </div>
+      <!-- menu mobile fim -->
+	  
+	  
+      <img class="img-responsive" src="img/salesforce2.png" alt="">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  
+		<!--INÍCIO Cascading Style Sheets - CSS !-->   
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-css" aria-expanded="true" aria-controls="collapse-css"><br />
+                Cascading Style Sheets - CSS
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-css" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+                <!--
+				<li><a class="page-scroll" href="#box-background" id="background">Background</a></li>
+                <li><a class="page-scroll" href="#box-border" id="border">Border</a></li>
+                <li><a class="page-scroll" href="#box-button" id="buttons">Button</a></li>
+                <li><a class="page-scroll" href="#box-display" id="display">Display</a></li>
+                <li><a class="page-scroll" href="#box-font" id="fonts">Font</a></li>
+                <li><a class="page-scroll" href="#box-margin" id="margin">Margin</a></li>
+                <li><a class="page-scroll" href="#box-mediaQueries" id="mediaQueries">Media Queries</a></li>
+                <li><a class="page-scroll" href="#box-overflow" id="overflow">Overflow</a></li>
+                <li><a class="page-scroll" href="#box-padding" id="padding">Padding</a></li>
+                <li><a class="page-scroll" href="#box-position" id="position">Position</a></li>
+                <li><a class="page-scroll" href="#box-text" id="text">Text</a></li>-->
+                <li><a class="page-scroll" href="#box-ComentDoc" id="ComentDoc">Comentários/Documentação</a></li>
+                <li><a class="page-scroll" href="#box-ComentDoc" id="ComentDoc">Boas Práticas</a></li>
+                <li><a class="page-scroll" href="#box-ComentDoc" id="ComentDoc">Comentários/Documentação</a></li>
+                <li><a class="page-scroll" href="#box-repCodigo" id="repCodigo">Repositório de Código</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>
+		<!--FIM Functions Cascading Style Sheets - CSS !-->  
+		
+	    <!--INÍCIO Functions JS !-->   
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-functionjs" aria-expanded="true" aria-controls="collapse-functionjs"><br />
+                Functions JS
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-functionjs" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+				<li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>
+		<!--FIM Functions JS !-->  
+		
+        <!--INÍCIO Plantão !-->   
+         
+		<div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-plantao" aria-expanded="true" aria-controls="collapse-plantao"><br />
+                Plantão
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-plantao" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+				<li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>        
+        <!--FIM Plantão !-->
+          
+      </div>
+    </div>
+    <!-- menu lateral fim -->
+
+	<!-- INFORMAÇÕES -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-2">
+			<img src="img/salesforce-designPattern.png" style="width:100%;">
+				<div class="bs-callout bs-callout-danger">
+					<p><h4><b>Design Pattern Lightning </b></h4></p>
+					<span>Design Patterns são conceitos, modelos e padrões que foram criados para solucionar problemas específicos no ciclo de vida do desenvolvimento de um software.
+					<br><br>
+					Com o intuito de amenizar os problemas encontrados no nosso dia-a-dia durante o desenvolvimento. Esta lib armazenará informações de:
+					<br><br>
+					<ul>
+						<li>Padrão de Projeto: <a href="https://en.bem.info/methodology/css/" target="_blank">BEM</a></li>
+						<li>Otimizador de Imagem: <a href="https://www.tinypng.com/​" target="_blank">Tiny</a></li>
+						<li>Repositório de código desenvolvido de alta complexidade: <a href="#box-repCodigo">Repositório</a></li>
+					</ul>
+</span>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIM INFORMAÇÕES -->
+	
+    <!-- conteudo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            <div class="bs-callout bs-callout-danger">
+				
+                <h4 class="tituloLib"><u>Cascading Style Sheets - CSS</u></h4>
+                <p><b>Primeiramente antes de criar uma classe CSS</b></p>
+				
+				<!-- Atributos -->            
+                <!-- INICIO Background-->
+                <br />
+                <h4 id="box-background" class="subtileLib">Background</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-background">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-background">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-background">
+                        <pre><code>
+<span>
+Content here.
+</span>
+						</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-background">
+                       <pre class="prime"><code>strForm : decimal || double<br />campo : double</code></pre>
+                    </div>                       
+                </div>
+                  <!-- Background FIM --> 
+				  
+                <!-- INICIO border-->
+                <br />
+                <h4 id="box-border" class="subtileLib">Border</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+							<br><br>
+							<span> Imagem ilustrativa: </span>
+							<img class="img-responsive" src="img/padding.jpg" alt="image padding box">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-border">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-border">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-border">
+                        <pre><code>
+   /* label underline focus color */
+   .input-field input[type=text]{
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+						</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-border">
+                       <pre class="prime"><code>strForm : decimal || double<br />campo : double</code></pre>
+                    </div>                       
+                </div>
+                  <!-- border FIM --> 
+				  
+				<!-- Buttom INICIO -->
+                <br />
+                <h4 id="box-button" class="subtileLib">Button</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-button">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-button">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-button">
+                        <pre><code>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-button">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                  <!-- Button FIM --> 	
+
+<!-- Display INICIO -->
+                <br />
+                <h4 id="box-display" class="subtileLib">Display</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-display">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-display">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-display">
+                        <pre><code>
+li {
+    display: inline;
+}
+span {
+    display: block;
+}
+a {
+    display: block;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-display">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                  <!-- Display FIM -->				  
+
+				  <!-- Font INICIO -->
+                <br />
+                <h4 id="box-font" class="subtileLib">Font</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-font">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-font">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-font">
+                        <pre><code>
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-font">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                      
+                </div>
+                  <!-- Font FIM -->	
+
+				  <!-- Margin INICIO -->
+                <br />
+                <h4 id="box-margin" class="subtileLib">Margin</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+							<br><br>
+							<span> Imagem ilustrativa: </span>
+							<img class="img-responsive" src="img/padding.jpg" alt="image padding box">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-margin">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-margin">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-margin">
+                        <pre><code>
+div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-margin">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                  <!-- Margin FIM -->
+				  
+				  <!-- MediaQueries INICIO -->
+                <br />
+                <h4 id="box-mediaQueries" class="subtileLib">Media Queries</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-mediaqueries">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-mediaqueries">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-mediaqueries">
+                        <pre><code>
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 5/SE - INICIO*/
+@media only screen and (max-width: 320px) and (max-height: 568px){
+
+}
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 5/SE - FIM*/
+
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 6/7/8 - INICIO*/
+@media only screen and (min-width: 375px) and (max-height: 667px){
+
+}
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 6/7/8 - FIM*/
+
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 6/7/8 PLUS- INICIO*/
+@media only screen and (min-width: 414px) and (max-height: 736px){
+
+}
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE 6/7/8 PLUS- FIM*/
+
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE X - INICIO*/
+@media only screen and (min-width: 375px) and (max-width: 376px) and (max-height: 812px){
+
+}
+/*PROPRIEDADES REFERENTES A DISPOSITIVOS IPHONE X - FIM*/
+
+/*PROPRIEDADES REFERENTES A DESK INICIO*/
+@media screen and (min-width: 769px) {
+    
+}
+/*PROPRIEDADES REFERENTES A DESK FIM*/
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-mediaqueries">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                  <!-- MediaQueries FIM -->
+				  
+				 <!-- INICIO overflow-->
+                <br />
+                <h4 id="box-overflow" class="subtileLib">Overflow</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-overflow">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-overflow">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-overflow">
+                        <pre>
+<code>
+<span>
+Content here.
+</span>
+</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-overflow">
+                       <pre class="prime"><code>strForm : decimal || double<br />campo : double</code></pre>
+                    </div>                       
+                </div>
+                  <!-- overflow FIM --> 
+				  
+				<!-- Padding INICIO -->
+                <br />
+                <h4 id="box-padding" class="subtileLib">Padding</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>CSS tem propriedades para especificar o preenchimento para cada lado de um elemento:</span> 
+							<ul> 
+								<li>padding-top</li>
+								<li>padding-right</li>
+								<li>padding-bottom</li>
+								<li>padding-left</li>
+							</ul>
+							
+							<span>Todas as propriedades de preenchimento podem ter os seguintes valores:</span>
+							<ul> 
+								<li>length - especifica um preenchimento em px, pt, cm, etc.</li>
+								<li>% - especifica um preenchimento em % da largura do elemento contido.</li>
+								<li>inherit - especifica que o preenchimento deve ser herdado do elemento pai.</li>
+							</ul>	
+							<strong>Nota: Valor negativo não é aceito.</strong>
+							<br><br>
+							<span> Imagem ilustrativa: </span>
+							<img class="img-responsive" src="img/padding.jpg" alt="image padding box">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-padding">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-padding">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-padding">
+                        <pre><code>
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    padding-left: 80px;
+}
+
+or
+
+/*top padding = 50px
+  right padding = 30px
+  bottom padding = 75px 
+  left paddings = 50px
+*/
+div {
+    padding: 50px 30px 0 80px;
+}
+
+or
+
+/*top and bottom paddings = 30px
+  left and right paddings = 50px
+*/
+div {
+    padding: 30px 50px;
+}
+
+or
+
+/*top padding = 25px
+  right and left paddings = 50px
+  bottom padding = 75px
+*/
+div {
+    padding: 25px 50px 75px;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-padding">
+                       <pre class="nprime"><code>
+	padding-top : pdt-10
+	padding-right : pdr-10
+	padding-bottom : pdb-10
+	padding-left : pdl-10</code>
+						</pre>
+                    </div>                      
+                </div>
+                <!-- Padding FIM -->
+				
+				<!-- Position INICIO -->
+                <br />
+                <h4 id="box-position" class="subtileLib">Position</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								
+									Existem cinco valores de posição diferentes:
+								<ul>
+									<li>static
+										<ul>
+											<li>Valor padrão. Elementos são renderizados em ordem, conforme aparecem no fluxo de documentos</li>
+										</ul>
+									</li>
+									<li>relative
+										<ul>
+											<li>O elemento é posicionado em relação ao primeiro elemento ancestral posicionado (não estático)</li>
+										</ul>
+									</li>
+									<li>fixed
+										<ul>
+											<li>O elemento está posicionado em relação à janela do navegador</li>
+										</ul>
+									</li>
+									<li>absolute
+										<ul>
+											<li>O elemento está posicionado em relação à sua posição normal, então "left: 20px" adiciona 20 pixels à posição LEFT do elemento</li>
+										</ul>
+									</li>
+									<li>sticky
+										<ul>
+											<li>O elemento é posicionado com base na posição de rolagem do usuário
+												Um elemento adesivo alterna entre relativo e fixo, dependendo da posição de rolagem. Ela é posicionada relativa até que uma determinada posição de deslocamento seja atendida na viewport - então ela "gruda" no lugar (como position: fixed).
+											</li>
+										</ul>
+									</li>
+								</ul>
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-position">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-position">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-position">
+                        <pre><code>
+div {
+    position: relative;
+}
+</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-position">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                <!-- Position FIM -->
+				
+				<!-- Text INICIO -->
+                <br />
+                <h4 id="box-text" class="subtileLib">Text</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#estrutura-box-text">Estrutura</a></li>
+                    <li role="presentation"><a href="#nomenclatura-box-text">Nomenclatura</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="estrutura-box-text">
+                        <pre><code> content here.</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="nomenclatura-box-text">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>                       
+                </div>
+                <!-- Text FIM -->
+				  
+				  
+				<!-- Repositorio Codg INICIO -->
+                <br />
+                <h4 id="box-repCodigo" class="subtileLib">Repositório de Código</h4>
+               
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Repositório onde iremos armazenar nosso desenvolvimento de complexidade alta.
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+				
+				<h4>Gráfico de linha</h4>
+				<img src="img/chart_segmento.png">
+				<br><br>
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#component-box-chart">Component</a></li>
+                    <li role="presentation"><a href="#controller-box-chart">Controller</a></li>
+                    <li role="presentation"><a href="#helper-box-chart">Helper</a></li>
+                    <li role="presentation"><a href="#style-box-chart">Style</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="component-box-chart">
+                        <pre><code class="language-html">
+	&lt;aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global"&gt;
+    
+    &lt;aura:handler name="init" value="{!this}" action="{!c.doInit}" /&gt;
+    
+    &lt;aura:attribute name="rentabilidadeMes" type="List" default="[10, 10, 10, 10, 10, 10, 10, 10, 10]"/&gt;
+    &lt;aura:attribute name="cdiMes" type="List" default="[20, 20, 20, 20, 20, 40, 40, 20, 20]" /&gt;
+    
+    &lt;aura:attribute name="rentabilidadeAno" type="List" default="[30, 10, 30, 20, 20, 20, 30, 10, 30]"/&gt;
+    &lt;aura:attribute name="cdiAno" type="List" default="[40, 40, 40, 40, 40, 40, 40, 40, 40]" /&gt;
+    
+    &lt;aura:attribute name="rentabilidade12meses" type="List" default="[0, 100, 50, 20, 50, 60, 30, 40, 30]"/&gt;
+    &lt;aura:attribute name="cdi12meses" type="List" default="[20, 30, 20, 50, 60, 30, 40, 30, 10]" /&gt;
+    
+    &lt;aura:attribute name="valorRentabilidade" type="List" default="['+ 0,94%','+ 0,78%','+0,56%']"/&gt;
+    &lt;aura:attribute name="valorCdi" type="List" default="['+ 0,57%','+ 0,35%','+ 0,23%']" /&gt;
+    
+    &lt;aura:attribute name="opEsteMes" type="Boolean" default="true" /&gt;
+    &lt;aura:attribute name="opEsteAno" type="Boolean" default="false" /&gt;
+    &lt;aura:attribute name="op12Meses" type="Boolean" default="false" /&gt;
+    
+    
+    &lt;div class="graficoSegmento"&gt;
+        
+        &lt;div class="mt-20"&gt;
+        	&lt;span class="font_xx-large bold900 fontNormal cblack2"&gt; Rentabilidade&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;lightning:layout aura:id="navTop" class="menu-topo slds-align_absolute-center slds-scrollable--x slds-p-bottom_medium slds-m-horizontal_small mt-50"&gt;
+            &lt;lightning:layoutItem&gt;
+                &lt;lightning:button aura:id="btnMes" name="btnMes" class="{! v.opEsteMes ? 'btn opActive font-16': 'btn cgray font-16'}" variant="base" label="Este Mês" title="Este Mês" onclick="{!c.selectOp}" /&gt;
+            &lt;/lightning:layoutItem&gt;
+            &lt;lightning:layoutItem&gt;
+                &lt;lightning:button aura:id="btnAno" name="btnAno" class="{! v.opEsteAno ? 'btn opActive font-16': 'btn cgray font-16'}" variant="base" label="Este Ano" title="Este Ano" onclick="{!c.selectOp}" /&gt;
+            &lt;/lightning:layoutItem&gt;
+            &lt;lightning:layoutItem&gt;
+                &lt;lightning:button aura:id="btn12meses" name="btn12meses" class="{! v.op12Meses ? 'btn opActive font-16': 'btn cgray font-16'}" variant="base" label="Últimos 12 meses" title="Últimos 12 meses" onclick="{!c.selectOp}" /&gt;
+            &lt;/lightning:layoutItem&gt;
+        &lt;/lightning:layout&gt;
+        &lt;div class="slds-grid slds-align_absolute-center mt-20"&gt;
+            &lt;div class="slds-col slds-size_5-of-12 borderGreen line"&gt; Rentabilidade&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_2-of-12"&gt;&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_5-of-12 borderPink line"&gt; CDI&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="{! v.opEsteMes ? 'slds-grid slds-align_absolute-center mt-10' : 'dp-none'}"&gt;
+            &lt;div class="slds-col slds-size_5-of-12 colorGreen slds-text-align_center"&gt;{!v.valorRentabilidade[0]}&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_2-of-12"&gt;&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_5-of-12 colorPink slds-text-align_center"&gt;{!v.valorCdi[0]}&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="{! v.opEsteAno ? 'slds-grid slds-align_absolute-center mt-10' : 'dp-none'}"&gt;
+            &lt;div class="slds-col slds-size_5-of-12 colorGreen slds-text-align_center"&gt;{!v.valorRentabilidade[1]}&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_2-of-12"&gt;&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_5-of-12 colorPink slds-text-align_center"&gt;{!v.valorCdi[1]}&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="{! v.op12Meses ? 'slds-grid slds-align_absolute-center mt-10' : 'dp-none'}"&gt;
+            &lt;div class="slds-col slds-size_5-of-12 colorGreen slds-text-align_center"&gt;{!v.valorRentabilidade[2]}&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_2-of-12"&gt;&lt;/div&gt; 
+            &lt;div class="slds-col slds-size_5-of-12 colorPink slds-text-align_center"&gt;{!v.valorCdi[2]}&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="{! v.opEsteMes ? 'bodyChart':'dp-none' }" &gt;
+            &lt;canvas aura:id="chartRentabilidadeMes" id="chartRentabilidadeMes" class="posCanvas mt-10" height="400" width="380"&gt;&lt;/canvas&gt;
+        &lt;/div&gt;        
+        &lt;div class="{! v.opEsteAno ? 'bodyChart':'dp-none' }"&gt;
+            &lt;canvas aura:id="chartRentabilidadeAno" id="chartRentabilidadeAno" class="posCanvas mt-10" height="400" width="380"&gt;&lt;/canvas&gt;
+        &lt;/div&gt; 
+        &lt;div class="{! v.op12Meses ? 'bodyChart':'dp-none' }"&gt;
+            &lt;canvas aura:id="chartRentabilidade12meses" id="chartRentabilidade12meses" class="posCanvas mt-10" height="400" width="380"&gt;&lt;/canvas&gt;
+        &lt;/div&gt; 
+        &lt;div class="slds-col_padded slds-size_1-of-1 slds-p-top_medium btnIndicador"&gt;
+            &lt;ul class="slds-carousel__indicators" role="tablist"&gt;
+                &lt;li class="slds-carousel__indicator" role="presentation"&gt;
+                    &lt;button id="btnMes" onclick="{!c.indicador}" name="btnMes" class="{! v.opEsteMes ? 'indicador indActive': 'indicador indNotActive'}"&gt;
+                        &lt;span class="slds-assistive-text"&gt;grafico rentabilidade mês&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/li&gt;
+                &lt;li class="slds-carousel__indicator" role="presentation"&gt;
+                    &lt;button id="btnAno" onclick="{!c.indicador}" name="btnAno" class="{! v.opEsteAno ? 'indicador indActive': 'indicador indNotActive'}"&gt;
+                        &lt;span class="slds-assistive-text"&gt;grafico rentabilidade ano&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/li&gt;
+                &lt;li class="slds-carousel__indicator" role="presentation"&gt;
+                    &lt;button id="btn12meses" onclick="{!c.indicador}" name="btn12meses" class="{! v.op12Meses ? 'indicador indActive': 'indicador indNotActive'}"&gt;
+                        &lt;span class="slds-assistive-text"&gt;grafico rentabilidade últimos 12 meses&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/aura:component&gt;	
+</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="controller-box-chart">
+                       <pre class="nprime"><code class="language-javascript">({
+	doInit : function(component, event, helper) {
+        setTimeout(function(){ helper.chartRentabilidade(component); }, 100);
+	},
+    selectOp : function(component, event, helper){
+        var op = event.getSource().get('v.name');
+        op == 'btnMes'? component.set('v.opEsteMes',true) : component.set('v.opEsteMes',false);
+        op == 'btnAno'? component.set('v.opEsteAno',true) : component.set('v.opEsteAno',false);
+        op == 'btn12meses'? component.set('v.op12Meses',true) : component.set('v.op12Meses',false);
+    },
+    indicador : function(component, event, helper){
+        var op =  event.currentTarget.getAttribute('id');
+        op == 'btnMes'? component.set('v.opEsteMes',true) : component.set('v.opEsteMes',false);
+        op == 'btnAno'? component.set('v.opEsteAno',true) : component.set('v.opEsteAno',false);
+        op == 'btn12meses'? component.set('v.op12Meses',true) : component.set('v.op12Meses',false);
+    }
+})</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="helper-box-chart">
+                       <pre class="nprime"><code class="language-javascript">({
+	chartRentabilidade : function(component) {
+        console.log('entrou ');
+        var canvas;
+        var context;
+        var Val_max;
+        var Val_min;
+        var sections;
+        var xScale;
+        var yScale;
+        var ln = 0;
+        var margFix = 40;
+        var ln_color = new Array();
+        
+        ln_color[0] = "purple";
+        var vetRentabilidade = ['v.rentabilidadeMes','v.rentabilidadeAno','v.rentabilidade12meses'];
+        var vetCDI = ['v.cdiMes','v.cdiAno','v.cdi12meses'];
+        var idCanvas = ['chartRentabilidadeMes','chartRentabilidadeAno','chartRentabilidade12meses'];
+        
+        var opRentabilidade;
+        var opCDI;
+        
+        ln_color[1] = "#4bf087";
+        ln_color[2] = "#e288d7";
+        
+        for(var i=0; i<3;i++ ){
+            var id = idCanvas[i];
+            canvas = document.getElementById(id);
+            var rentabilidade = component.get(vetRentabilidade[i]);
+            var cdi =  component.get(vetCDI[i]);
+            init(canvas, rentabilidade, cdi );
+        }
+        function init(canvas, rentabilidade, cdi) {
+            // set these values for your data
+            sections = 9;
+            Val_max = 100;
+            Val_min = 0;
+            var stepSize = 10;
+            var columnSize = 250;
+            var rowSize = 50;
+            var margin = 10;
+            var xAxis = [" ", "01", "02", "03", "04", "05", "06", "07", "08", "09"];
+            
+            
+            
+            
+            context = canvas.getContext("2d");
+            context.fillStyle = "#222";
+            context.font = "14px Verdana";
+            yScale = (canvas.height - columnSize - margin) / (Val_max - Val_min);
+            xScale = (canvas.width - rowSize) / sections;
+            
+            context.strokeStyle = "#979797"; // color of grid lines
+            context.lineWidth = 0.6;
+            // horizontal row
+            context.moveTo(canvas.width-margFix,canvas.height - margFix);
+            context.lineTo((margFix-margin),canvas.height - margFix);
+            context.setLineDash([1, 0]);
+            context.stroke();
+            
+            context.setLineDash([5, 4]); //dashes are 5px and spaces are 3px
+            context.beginPath();
+            // print Parameters on X axis, and grid lines on the graph
+            
+            for (var i = 1; i <= sections; i++) {
+                var x = i * xScale;
+                context.fillText(xAxis[i], x - 10, canvas.height - margin);
+                context.moveTo(x, columnSize - margFix);
+                context.lineTo(x, canvas.height - margin - margFix);
+            }
+            
+            // print row header and draw horizontal grid lines
+            
+            context.stroke();
+            
+            context.translate(rowSize, canvas.height + Val_min * yScale);
+            context.scale(1, -1 * yScale);
+            
+            context.strokeStyle = ln_color[1];
+            context.setLineDash([1, 0]);
+            
+            plotData(rentabilidade,1,canvas);
+            context.strokeStyle = ln_color[2];
+            
+            plotData(cdi,2,canvas);
+        }
+        
+        function plotData(dataSet, ln,canvas) {
+            var circle_x;
+            var circle_y;
+            context.beginPath();
+            context.moveTo(-10, dataSet[0] + margFix);
+            for (var i = 1; i < sections; i++) {
+                context.lineTo(i * xScale - 10, dataSet[i] + margFix);
+                circle_x = i * xScale - 12;
+                circle_y = dataSet[i] + 15;
+            }
+            context.stroke();
+            
+            //circle
+            var ctx = canvas.getContext("2d");
+            
+            ctx.beginPath();
+            ctx.arc(circle_x, (circle_y+margFix-15), 4, 0, 2 * Math.PI);
+            ctx.strokeStyle = ln_color[ln];
+            ctx.fillStyle = ln_color[ln];
+            ctx.stroke();
+            ctx.fill();
+        }
+        
+    }
+})</code></pre>
+                    </div>                
+                    <div role="tabpanel" class="tab-pane" id="style-box-chart">
+                       <pre class="nprime"><code class="language-css">.THIS .posCanvas{
+    left: 0;
+    top: 15%;
+    position: absolute;
+    width:100%;
+}
+.THIS .mt-50{
+    margin-top: 50px;
+}
+.THIS .mt-20{
+    margin-top: 20px;
+}
+.THIS .mt-10{
+    margin-top: 10px;
+}
+.THIS .borderPink{
+    border: 2px solid #e288d7;
+    color: #e288d7;
+}
+.THIS .colorGreen{
+    color: #8EE0AC;
+}
+.THIS .colorPink{
+    color: #e288d7;
+}
+.THIS .borderGreen{
+    border: 2px solid #8EE0AC;
+    color: #8EE0AC;
+}
+.THIS .line{
+    border-radius: 9px;
+    text-align: center;
+}
+.THIS .bold900{
+    font-weight: 900;
+}
+.THIS .fontNormal{
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.THIS .iconChart svg{
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 3px;
+}
+.THIS .opActive{
+    border-bottom: 3px solid #222222;
+    padding-bottom: 2px;
+}
+.THIS .btnIndicador{
+    position: absolute;
+    top: 76%;
+    left: 0;
+}
+.THIS .cgray{
+    color: #a9a9a9;
+}
+.THIS .cblack2{
+    color: #222222;
+}
+.THIS .indicador{
+	height: 4pt;
+    width: 13pt;
+    border: 0;
+    border-radius: 2px;
+}
+.THIS .indActive{
+	color: rgb(0,0,0);
+    background: rgb(0,0,0);
+}
+.THIS .indNotActive{
+    color: rgb(151,151,151);
+    background: rgb(151,151,151);
+}
+.THIS .dp-none{
+    display:none;
+}
+.THIS .menu-topo{
+    width: 100%;
+    margin-left: 0;
+}
+.THIS .font-16{
+    font-size: 16px;
+}
+.THIS .btn{
+    margin-right: 24px;
+}
+.THIS .menu-topo div:last-child button{
+    margin-right: 0;
+}</code></pre>
+                    </div>                       
+                </div>
+                <!-- Repositorio Codg FIM -->
+				<!-- FUNÇÕES FIM --> 				                       
+        </div>              
+		
+		                <!-- PAGINAS Produto MODELO -->
+                <div class="bs-callout bs-callout-danger">
+                    
+                <h4 class="tituloLib"><u>MODELO</u></h4>
+                <br>
+					
+                <!-- PagModelo1 INICIO -->
+                <h4 id="box-PagModelo1" class="subtileLib">PagModelo1.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+								<li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo1 FIM -->
+                    
+                <!-- PagModelo2 INICIO -->
+                <h4 id="box-PagModelo2" class="subtileLib">PagModelo2.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+								<li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+								<li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>
+                            </ul>                            
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo2 FIM --> 
+
+                <!-- PagModelo3 INICIO -->
+                <h4 id="box-PagModelo3" class="subtileLib">PagModelo3.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+                                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+                                <li><a class="page-scroll" href="#box-CorrigeData" id="CorrigeData">CorrigeData()</a></li>
+                                <li><a class="page-scroll" href="#box-ExecutarJS" id="ExecutarJS">ExecutarJS()</a></li>                         
+                                <li><a class="page-scroll" href="#box-ManterScroll" id="ManterScroll">ManterScroll()</a></li>   
+                                <li><a class="page-scroll" href="#box-SetarFoco" id="SetarFoco">SetarFoco()</a></li> 
+                                <li><a class="page-scroll" href="#box-setaSubmitPopup" id="setaSubmitPopup">setaSubmitPopup()</a></li>
+								<li><a class="page-scroll" href="#box-TurnImage" id="TurnImage">TurnImage()</a></li>         
+                              </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo3 FIM -->                  
+            </div>
+            <!-- PAGINAS MODELO FIM -->
+      </div>                
+    </div>    
+	
+    <!-- conteudo fim -->
+
+    <!-- back to top -->
+    <div class="btn-subir" id="back-top" style="position:fixed; right:17px; bottom:20px;">
+      <a href="#" class="subir"><img src="img/menu-subir.png" alt=""></a>
+    </div>
+    <!-- back to top fim -->
+
+    <!-- anexos -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/prism.js"></script>
+    <!--script src="js/scrolling-nav.js"></script-->
+  </body>
+</html>

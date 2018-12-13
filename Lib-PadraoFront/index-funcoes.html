@@ -1,0 +1,2561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LIB HTML / Parâmetros - MAPFRE Seguros</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <link rel="stylesheet" type="text/css" href="css/Parametros.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/icones/font-awesome.css">
+  </head>
+  <body>
+    <!-- menu lateral -->
+    <div class="bg-menu-lateral">
+      <!-- menu mobile -->
+      <div class="menumobile">
+        <a href="#" id="menumobile"><img src="img/btn-mobile.jpg" alt=""></a>
+      </div>
+      <!-- menu mobile fim -->
+      <img class="img-responsive" src="img/logo.jpg" alt="">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1"><br />
+                Functions JS
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="#box-AbrirJanelaCoberturaExtra" id="AbrirJanelaCoberturaExtra">AbrirJanelaCoberturaExtra()</a></li>                  
+                <li><a class="page-scroll" href="#box-AbrirJanelaPopUp" id="AbrirJanelaPopUp">AbrirJanelaPopUp()</a></li>
+                <li><a class="page-scroll" href="#box-abrirPopupPreVenda" id="abrirPopupPreVenda">abrirPopupPreVenda()</a></li>
+                <li><a class="page-scroll" href="#box-abrirPopupRelatorioPreProposta" id="abrirPopupRelatorioPreProposta">abrirPopupRelatorioPreProposta()</a></li>
+                <li><a class="page-scroll" href="#box-abrirTelaConfirmacao" id="abrirTelaConfirmacao">abrirTelaConfirmacao()</a></li>     
+                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+                <li><a class="page-scroll" href="#box-BlockCTRL" id="BlockCTRL">BlockCTRL()</a></li>  
+                <li><a class="page-scroll" href="#box-cblPais-ClientID" id="cblPais-ClientID">cblPais.ClientID</a></li>                  
+                <li><a class="page-scroll" href="#box-ControlaBtnPopup" id="ControlaBtnPopup">ControlaBtnPopup()</a></li>
+                <li><a class="page-scroll" href="#box-CorrigeData" id="CorrigeData">CorrigeData()</a></li>
+                <li><a class="page-scroll" href="#box-CorrigirDouble" id="CorrigirDouble">CorrigirDouble()</a></li>                  
+                <li><a class="page-scroll" href="#box-ExecutarJS" id="ExecutarJS">ExecutarJS()</a></li>  
+                <li><a class="page-scroll" href="#box-ExecutarJS-MudarTargetVeioPopup" id="ExecutarJS - MudarTargetVeioPopup">ExecutarJS() - MudarTargetVeioPopup</a></li> 
+                <li><a class="page-scroll" href="#box-ExecutarJS-setFocusAndSelect" id="ExecutarJS-setFocusAndSelect">ExecutarJS() - setFocusAndSelect</a></li>
+                <li><a class="page-scroll" href="#box-ExibirMensagemAguardo" id="ExibirMensagemAguardo">ExibirMensagemAguardo()</a></li>				
+                <li><a class="page-scroll" href="#box-fecharJanelaCoberturaExtra" id="fecharJanelaCoberturaExtra">fecharJanelaCoberturaExtra()</a></li>
+                <li><a class="page-scroll" href="#box-fecharPopupPreVenda" id="fecharPopupPreVenda">fecharPopupPreVenda()</a></li>                  
+                <li><a class="page-scroll" href="#box-formartEntradaDecimal" id="formartEntradaDecimal">formartEntradaDecimal()</a></li>
+                <li><a class="page-scroll" href="#box-FormatDecimal" id="FormatDecimal">FormatDecimal()</a></li> 
+                <li><a class="page-scroll" href="#box-isEmail" id="isEmail">isEmail()</a></li> 
+                <li><a class="page-scroll" href="#box-limitaSelecao" id="limitaSelecao">limitaSelecao()</a></li>                   
+                <li><a class="page-scroll" href="#box-LimitoTexto" id="LimitoTexto">LimitoTexto()</a></li>
+                <li><a class="page-scroll" href="#box-LimparEspacos" id="LimparEspacos">LimparEspacos()</a></li>                  
+                <li><a class="page-scroll" href="#box-LinhacbxPerfil" id="LinhacbxPerfil">Linha - cbxPerfil</a></li> 
+                <li><a class="page-scroll" href="#box-LinhasetarScroll" id="LinhasetarScroll">Linha - setarScroll</a></li>  
+				<li><a class="page-scroll" href="#box-Linhaselfclose" id="Linhaselfclose">Linha - self.close</a></li>
+                <li><a class="page-scroll" href="#box-ManterScroll" id="ManterScroll">ManterScroll()</a></li>                     
+                <li><a class="page-scroll" href="#box-MaxLength" id="MaxLength">MaxLength()</a></li>               
+                <li><a class="page-scroll" href="#box-negative" id="negative">negative()</a></li>
+                <li><a class="page-scroll" href="#box-Redimensionar-FORM" id="Redimensionar-FORM">Redimensionar FORM ao tamanho do conteúdo()</a></li>
+                <li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>             
+                <li><a class="page-scroll" href="#box-SetarFoco" id="SetarFoco">SetarFoco()</a></li>
+                <li><a class="page-scroll" href="#box-setaSimuladorPopup" id="setaSimuladorPopup">setaSimuladorPopup()</a></li>                  
+                <li><a class="page-scroll" href="#box-setaSubmitPopup" id="setaSubmitPopup">setaSubmitPopup()</a></li>
+                <li><a class="page-scroll" href="#box-String-prototype-trim" id="String-prototype-trim">String.prototype.trim = function ()</a></li>                  
+                <li><a class="page-scroll" href="#box-TurnImage" id="TurnImage">TurnImage()</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu lateral fim -->
+
+    <!-- conteudo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            <div class="bs-callout bs-callout-danger">
+                <h4 class="tituloLib"><u>Functions JS</u></h4>
+                <p><b>Funções JavaScript existentes nas páginas do sistema.</b></p>
+                <br />
+                <!-- AbrirJanelaCoberturaExtra INICIO -->
+                <h4 id="box-AbrirJanelaCoberturaExtra" class="subtileLib">function AbrirJanelaCoberturaExtra()</h4>
+                <ul class="al">
+                    <li><b>Arquivos:</b> </li>
+                    <b>- Auto Duas Rodas OnLine:</b> AutoDuasRodasOnLineCotacao.aspx<br /> 
+                    <b>- Auto Duas Rodas Special OnLine:</b> AutoDuasRodasSpecialOnLineCotacao.aspx<br />
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para abrir popup.</strong>
+                            <br>
+                            Abre uma Popup passando como parâmetro uma página
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="abrirJanelaCoberturaExtra'"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-AbrirJanelaCoberturaExtra">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-AbrirJanelaCoberturaExtra">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-AbrirJanelaCoberturaExtra">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-AbrirJanelaCoberturaExtra">
+                        <pre><code>$('.abrirJanelaCoberturaExtra').OnClick(function (pagina) {
+    _cotacaoItemCoberturasExtras = window.open(pagina, 'CotacaoItemCoberturasExtras',
+   'width=470px,height=400px,left=200px,top=40px,resize=no,scrollbars=yes,status=no');
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-AbrirJanelaCoberturaExtra">
+                       <pre class="prime"><code>codPergunta : inteiro || double</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-AbrirJanelaCoberturaExtra">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>
+   
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                <br />
+                  <!-- AbrirJanelaCoberturaExtra FIM -->                
+                
+                <!-- AbrirJanelaPopUp INICIO -->
+                <h4 id="box-AbrirJanelaPopUp" class="subtileLib">function AbrirJanelaPopUp()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConCotacaoItemRisco.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para abrir uma janela com um pergunta específica.</strong>
+                            <br>
+                            Abre uma Popup passando como parâmetro o código da pergunta
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="AbrirJanelaPopUp'"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-AbrirJanelaPopUp">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-AbrirJanelaPopUp">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-AbrirJanelaPopUp">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-AbrirJanelaPopUp">
+                        <pre><code>$('.AbrirJanelaPopUp').click(function(){
+    var codPergunta = $(this).attr('codPergunta');
+    window.open('ReConDefinicaoPergunta.aspx?Cod_Pergunta=' + codPergunta, 'ReConDefinicaoPergunta', 
+   'scrollbars=yes,resizable=yes,width=370,height=200,left=300,top=200,status=0');
+});  </code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-AbrirJanelaPopUp">
+                       <pre class="prime"><code>codPergunta : inteiro || double</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-AbrirJanelaPopUp">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacaoItemRisco">ReConCotacaoItemRisco.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- AbrirJanelaPopUp FIM -->
+                
+                <!-- abrirPopupPreVenda INICIO -->
+                <br />
+                <h4 id="box-abrirPopupPreVenda" class="subtileLib">function abrirPopupPreVenda()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para abrir uma popup.</strong>
+                            <br><br />
+                            Chamar função: &lt;input type="text" class="abrirPopupPreVenda"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-abrirPopupPreVenda">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-abrirPopupPreVenda">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-abrirPopupPreVenda">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-abrirPopupPreVenda">
+                        <pre><code>Aguardando JQuery!</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-abrirPopupPreVenda">
+                       <pre class="prime"><code>pagina : string<br>nome : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-abrirPopupPreVenda">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- abrirPopupPreVenda FIM -->  
+                
+                <!-- abrirPopupRelatorioPreProposta INICIO -->
+                <br />
+                <h4 id="box-abrirPopupRelatorioPreProposta" class="subtileLib">function abrirPopupRelatorioPreProposta()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para abrir uma popup.</strong>
+                            <br /><br />
+                            Chamar função: abrirPopupRelatorioPreProposta();
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-abrirPopupRelatorioPreProposta">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-abrirPopupRelatorioPreProposta">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-abrirPopupRelatorioPreProposta">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-abrirPopupRelatorioPreProposta">
+                        <pre><code>function abrirPopupRelatorioPreProposta(pagina, nome) {
+    if ($(this).parents('#pageRelatorioPreProposta') != null 
+        && $(this).parents('#pageRelatorioPreProposta').closed == false) { 
+            
+	($(this).parents('#pageRelatorioPreProposta').close;
+    }
+
+    $(this).parents('#pageRelatorioPreProposta') = window.open(pagina, nome, 'width=640px,height=350px,left=50px,
+    top=100px,resize=no,scrollbars=yes,status=no');
+}</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-abrirPopupRelatorioPreProposta">
+                       <pre class="prime"><code>pagina : string<br>nome : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-abrirPopupRelatorioPreProposta">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- abrirPopupRelatorioPreProposta FIM -->                  
+                
+                <!-- abrirTelaConfirmacao INICIO -->
+                <br />
+                <h4 id="box-abrirTelaConfirmacao" class="subtileLib">function abrirTelaConfirmacao()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConTelaRepique.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Método para abrir pop-up de solicitação do produto condominio.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="abrirTelaConfirmacao"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-abrirTelaConfirmacao">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-abrirTelaConfirmacao">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-abrirTelaConfirmacao">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-abrirTelaConfirmacao">
+                        <pre><code>$('.abrirTelaConfirmacao').keypress(function () {
+    inpCodVersao = $('#inpCodVersao').val();
+    inpCodCotacao = $('#inpCodCotacao').val();
+    inpCodItem = $('#inpCodItem').val();
+    inpCodCorretor = $('#inpCodCorretor').val();
+    inpCodProduto = $('#inpCodProduto').val();
+    inpFlagCalculado = $('#inpFlagCalculado').val();
+    inpCodVersaoGrupo = $('#inpCodVersaoGrupo').val();
+    inpTipoSolicitacaoRepique = $('#inpTipoSolicitacaoRepique').val();
+
+    Substituir = $('#Substituir').val();
+    
+    var confirmaValidacao = window.showModalDialog('ReConConfirmaRepique.aspx?cod_versao=' + 
+    inpCodVersao + "&cod_cotacao=" + inpCodCotacao + "&Cod_Item=" + inpCodItem + "&Cod_Corretor=" + 
+    inpCodCorretor + "&Cod_Produto=" + inpCodProduto + "&Flag_Calculado=" + inpFlagCalculado + "&Cod_Versao_Grupo=" + 
+    inpCodVersaoGrupo + "&Tipo_Solicitacao_Repique=" + 
+    inpTipoSolicitacaoRepique, 'Confirmar Copia', 'dialogHeight:100px;dialogWidth:500px;status=no;
+    scrollbars=yes;resizable=no;titlebar=yes');
+    
+    if (confirmaValidacao == false) {
+        Substituir.value = 'N';
+    } else {
+        Substituir.Value = 'S';
+      }
+
+    Form1.submit();
+ });</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-abrirTelaConfirmacao">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-abrirTelaConfirmacao">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- abrirTelaConfirmacao FIM -->               
+                    
+                <!-- BlockChar INICIO -->
+                <br />
+                <h4 id="box-BlockChar" class="subtileLib">function BlockChar()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para validar caracteres especiais.</strong>
+                            <br>
+                            Analisa valor atribuído na string, define o tipo e logo após define quais caracteres podem ser utilizados para aquele campo.
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="blockChar"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-BlockChar">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-BlockChar">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-BlockChar">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-BlockChar">
+                        <pre><code>$('.blockChar').keypress(function () {
+
+    var strForm = $(this).data("item-campo");
+    var campo = $(this).val();
+    var obj = String.fromCharCode(event.keyCode);
+    var str1 = "0123456789";
+    var str2 = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+    var str3 = ".@_-";
+    var str4 = ",";
+    var str5 = " ";
+    var str6 = "/";
+    var str7 = ":";
+    var str8 = "_-";
+    var str9 = "#";
+    var str10 = ".@_-=<>";
+    var str11 = ".";
+    var str12 = ",";
+    var str13 = "()";
+    var str14 = "-";
+    var str15 = unescape('%E1%E0%E3%E2%E9%EA%ED%F3%F4%F5%FA%FC%E7%C1%C0%C3%C2%C9%CA%CD%D3%D4%D5%DA%DC%C7');
+    var str = str1 + str2 + str5;
+    var qtdVirgulas = 0;
+
+    if (campo != null && (strForm == 'decimal' || strForm == 'double')) {
+        if (campo.value.indexOf(',') != -1 && obj == ',') {
+            event.returnValue = false;
+            return;
+        }
+    }
+
+    if (strForm != '0') {
+        switch (strForm) {
+            case "numeros":
+                str = str1;
+                break;
+            case "alfa":
+                str = str2;
+                break;
+            case "texto":
+                str = str1 + str2 + +str4 + str5 + str6 + str8 + str12 + str14 + str15;
+                break;
+            case "alfanumerico":
+                str = str1 + str2;
+                break;
+            case "nome":
+                str = str2 + str5 + str14 + str15;
+                break;
+            case "email":
+                str = str1 + str2 + str3;
+                break;
+            case "espaco":
+                str = str5;
+                break;
+            case "decimal":
+                str = str1 + str4;
+                break;
+            case "busca":
+                str = str1 + str2 + str3 + str6;
+                break;
+            case "datas":
+                str = str1 + str6;
+                break;
+            case "horas":
+                str = str1 + str7;
+                break;
+            case "cor":
+                str = str1 + str9;
+                break;
+            case "sql":
+                str = str1 + str2 + str10;
+                break;
+            case "diretorio":
+                str = str1 + str2 + str6 + str7 + str5;
+                break;
+            case "descricao":
+                str = str1 + str2 + str5 + str8;
+                break;
+            case "objetos":
+                str = str1 + str2 + str8;
+                break;
+            case "marcaauto":
+                str = str1 + str2 + str5 + str6 + str11 + str12 + str13 + str14;
+                break;
+            case "money":
+                str = str1 + str4 + str12;
+                break;
+            case "documentos":
+                str = str1 + str2 + str6 + str12 + str14;
+                break;
+            case "double":
+                str = str1 + str12;
+                break;
+            case "buscacep":
+                str = str2 + str5;
+                break;
+            case "numeronegativo":
+                str = str1 + str14;
+            case "endereco":
+                str = str1 + str2 + str4 + str5;
+                break;
+            case "texto_com_acento":
+                str = str2 + str5 + str15;
+                break;
+            case "textolivre":
+                str = str1 + str2 + str4 + str5 + str6 + str7 + str11 + str12 + str14 + str15;
+                break;
+            case "textosemespaco":
+                str = str1 + str2 + str4 + str6 + str7 + str9 + str10 + str13;
+                break;
+            case "RG":
+                str = str1 + str2 + str14;
+                break;
+            case "AlfanumericoAcento":
+                str = str1 + str2 + str5 + str15;
+                break;
+        }
+    }
+
+    var flag = 0;
+    for (i = 0; i < str.length; i++) {
+        if (obj == str.charAt(i)) {
+            flag = 1;
+        }
+    }
+
+    if (flag == 1) {
+        event.returnValue = true;
+        return;
+    } else {
+        event.returnValue = false;
+        return;
+    }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-BlockChar">
+                       <pre class="prime"><code>strForm : decimal || double<br />campo : double</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-BlockChar">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineOpcionais">AutoDuasRodasOnLineOpcionais.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaItem">AutoDuasRodasOnLinePropostaItem.aspx</a>
+                       
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineOpcionais">AutoDuasRodasSpecialOnLineOpcionais.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaItem">AutoDuasRodasSpecialOnLinePropostaItem.aspx</a>   
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConAnaliseBO">ReConAnaliseBO.aspx</a>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReConCotacaoItem">ReConCotacaoItem.aspx</a>
+   <a class="page-scroll" href="#box-ReConCotacaoItemCoberturas">ReConCotacaoItemCoberturas.aspx</a>
+   <a class="page-scroll" href="#box-ReConCotacaoItemRisco">ReConCotacaoItemRisco.aspx</a>
+   <a class="page-scroll" href="#box-ReConItemCotacaoSubscricao">ReConItemCotacaoSubscricao.aspx</a>
+   <a class="page-scroll" href="#box-ReConProposta">ReConProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDados">ReConPropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDadosItem">ReConPropostaDadosItem.aspx</a>  
+   <a class="page-scroll" href="#box-ReConRiscoRestritoDadosComplementar">ReConRiscoRestritoDadosComplementar.aspx</a>  
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a>
+   
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoDemaisDados">ReNauticoCotacaoDemaisDados.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoItemRisco">ReNauticoCotacaoItemRisco.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoProposta">ReNauticoProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDados">ReNauticoPropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoTelaSubscricao">ReNauticoTelaSubscricao.aspx</a>
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifAeronautico">ReRDifAeronautico.aspx</a>                       
+   <a class="page-scroll" href="#box-ReRDifAnexo">ReRDifAnexo.aspx</a>                      
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifDadosComplementaresVistoria">ReRDifDadosComplementaresVistoria.aspx</a>                       
+   <a class="page-scroll" href="#box-ReRDifFiltroRelatorioGerencial">ReRDifFiltroRelatorioGerencial.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifProperty">ReRDifProperty.aspx</a>  
+   <a class="page-scroll" href="#box-ReRDifProposta">ReRDifProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifPropostaDados">ReRDifPropostaDados.aspx</a> 
+   <a class="page-scroll" href="#box-ReRDifSubscricao">ReRDifSubscricao.aspx</a>    
+   
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacao">PrevPGNCrescerCotacao.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacaoItem">PrevPGNCrescerCotacaoItem.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacaoItemCoberturas">PrevPGNCrescerCotacaoItemCoberturas.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerProposta">PrevPGNCrescerProposta.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>
+
+<b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMCotacaoWebForm">MapfreVidaMCotacaoWebForm.aspx</a>                       
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a>
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaWebForm">MapfreVidaMPropostaWebForm.aspx</a>
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- BlockChar FIM -->
+                        
+               <!-- BlockCTRL INICIO -->
+                <br>        
+                <h4 id="box-BlockCTRL" class="subtileLib">function BlockCTRL()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>   
+                </ul>                        
+ 
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função que desabilita o usuário a copiar texto ou informações do formulário.</strong>
+                            <br>
+                            Quando o usuário tentar utilizar o "CTRL + C / CTRL + V" no formulário não obterá sucesso.
+                            <br>     
+                            <br>    
+                            Chamar função: &lt;input type="text" class="blockCTRL"&gt;;    
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-BlockCTRL">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-BlockCTRL">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-BlockCTRL">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-BlockCTRL">
+                        <pre><code>$('.blockCTRL').keydown(function () {
+    var ctrl = window.event.ctrlKey;
+    var tecla = window.event.keyCode;
+
+    //CTRL + V 
+
+    if (ctrl && tecla == 67) {
+        event.keyCode = 0;
+        event.returnValue = false;
+    }
+    
+    //CTRL + V
+    if (ctrl && tecla == 86) {
+        event.keyCode = 0;
+        event.returnValue = false;
+    }
+});
+</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-BlockCTRL">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-BlockCTRL">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineOpcionais">AutoDuasRodasOnLineOpcionais.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaItem">AutoDuasRodasOnLinePropostaItem.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineRelatorioExibir">AutoDuasRodasOnLineRelatorioExibir.aspx</a>
+   
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineOpcionais">AutoDuasRodasSpecialOnLineOpcionais.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaItem">AutoDuasRodasSpecialOnLinePropostaItem.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineRelatorioExibir">AutoDuasRodasSpecialOnLineRelatorioExibir.aspx</a>
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a>
+   
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoCoberturas">ReNauticoCotacaoCoberturas.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoRelatorioExibir">ReNauticoRelatorioExibir.aspx</a>   
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifConfirmacaoAnexo">ReRDifConfirmacaoAnexo.aspx</a></code></pre>
+                    </div>                    
+                </div>
+                <!-- BlockCTRL FIM -->
+                    
+               <!-- cblPais-ClientID INICIO -->
+                <br>        
+                <h4 id="box-cblPais-ClientID" class="subtileLib">cblPais.ClientID</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b>
+					<br />
+					PrevPGNCrescerProposta.aspx                      
+					<br />
+					PrevPGNCrescerPropostaDados.aspx</li>   
+                </ul>                        
+ 
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Limita a quantidade de selectbox que poderão ser marcados.</strong>
+                            <br>   
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-cblPais-ClientID">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-cblPais-ClientID">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-cblPais-ClientID">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-cblPais-ClientID">
+                        <pre><code>var cblPais = $('#<%= cblPais.ClientID %>').val();
+var checkBoxes = $('input');
+
+$(document).ready(function () {
+
+    for (var i = 0; i < checkBoxes.length; i++) {
+        var checkBox = checkBoxes[i];
+        if (checkBox.attachEvent)
+            checkBox.attachEvent('onclick', limitaSelecao);
+        else
+            checkBox.addEventListener("click", limitaSelecao);
+    }
+});
+</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-cblPais-ClientID">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-cblPais-ClientID">
+                       <pre class="cprime"><code><b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerProposta">PrevPGNCrescerProposta.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>
+</code></pre>
+                    </div>                    
+                </div>
+                <!-- cblPais-ClientID FIM -->                    
+                    
+                <!-- ControlaBtnPopup INICIO -->
+                <br>        
+                <h4 id="box-ControlaBtnPopup" class="subtileLib">function ControlaBtnPopup()</h4>
+                <h6>javascript:document.forms[0].target='ifrConteudo';window.close();</h6>        
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>    
+                </ul>                                                
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função utilizada para fechar uma janela.</strong>                    
+                            </span>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="controlabtnpopup"&gt;;    
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ControlaBtnPopup">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ControlaBtnPopup">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-ControlaBtnPopup">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ControlaBtnPopup">
+                        <pre><code>$('.controlabtnpopup').click(function (NomeDoBotao){
+    // Só Habilita o botao se btnFechar == "" (Click no Fechar do IE)
+    
+    if(btnFechar == ""){
+    window.opener.document.forms[0][NomeDoBotao].disabled = fas;
+    }
+)};</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ControlaBtnPopup">
+                       <pre class="prime"><code>NomeDoBotao : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ControlaBtnPopup">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineOpcionais">AutoDuasRodasOnLineOpcionais.aspx</a>
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConPropostaDadosItem">ReConPropostaDadosItem.aspx</a> 
+   
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDadosItem">ReNauticoPropostaDadosItem.aspx</a>   
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a>   
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- ControlaBtnPopup FIM -->                     
+                        
+                <!--CorrigeData INICIO -->
+                <br>        
+                <h4 id="box-CorrigeData" class="subtileLib">function CorrigeData()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>   
+                </ul>                                            
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Corrige a data digitada e testifica se é valida.</strong>
+                            <br />Recebe a data, verifica se contém 8 digitos, não possui "/" e se corresponde a uma data;
+                            <br>
+                            <br>    
+                            Chamar função: &lt;input type="text" class="corrigeData"&gt;;  
+                            <br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-CorrigeData">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-CorrigeData">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-CorrigeData">Chamada</a></li>                     
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-CorrigeData">
+                        <pre><code>// alert("ready");
+ $('.corrigeData').focusout(function (e) {
+     var campo = $(this).val();
+     if (campo.length == 8 && campo.indexOf('/') < 0) {
+    
+         if (((campo.substring(0, 2) == 30) && (campo.substring(2, 4) == 2)) ||
+            ((campo.substring(0, 2) == 31) &&                 (campo.substring(2, 4) == 2))) {
+             $(this).val("");
+    
+         } else {
+             $(this).val(campo.substring(0, 2) + '/' + campo.substring(2, 4) + '/' + campo.substring(4, 8));
+    
+         }
+     } else {
+    
+         if (campo.length == 10) {
+             if ((campo.substring(0, 2) > 31) || (campo.substring(3, 5) > 12) ||
+                (campo.substring(6, 10) < 1900)) 
+             {
+                 $(this).val("");
+    
+             }
+             if (((campo.substring(0, 2) == 30) && (Conteudo.substring(3, 5) == 2)) ||
+                ((campo.substring(0, 2) == 31) && (campo.substring(3, 5) == 2))) {
+                 $(this).val("");
+    
+             }
+             if (isDate($(this).val()) == false) {
+                 $(this).val("");
+    
+             }
+         } else {
+             if (isDate($(this).val()) == false) {
+                 $(this).val("");
+             }
+         }
+     }
+     e.preventDefault();
+ });</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-CorrigeData">
+                       <pre class="prime"><code>campo : date</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-CorrigeData">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaItem">AutoDuasRodasOnLinePropostaItem.aspx</a>
+   
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaItem">AutoDuasRodasSpecialOnLinePropostaItem.aspx</a>  
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>  
+   <a class="page-scroll" href="#box-ReConCotacaoItem">ReConCotacaoItem.aspx</a>   
+   <a class="page-scroll" href="#box-ReConCotacaoItemRisco">ReConCotacaoItemRisco.aspx</a>  
+   <a class="page-scroll" href="#box-ReConProposta">ReConProposta.aspx</a>
+
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoProposta">ReNauticoProposta.aspx</a>
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifFiltroRelatorioGerencial">ReRDifFiltroRelatorioGerencial.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifProposta">ReRDifProposta.aspx</a>   
+   <a class="page-scroll" href="#box-ReRDifPropostaDados">ReRDifPropostaDados.aspx</a> 
+   <a class="page-scroll" href="#box-ReRDifSubscricao">ReRDifSubscricao.aspx</a>    
+   
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacaoItem">PrevPGNCrescerCotacaoItem.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerProposta">PrevPGNCrescerProposta.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>   
+   
+<b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMCotacaoWebForm">MapfreVidaMCotacaoWebForm.aspx</a>                       
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a>
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaWebForm">MapfreVidaMPropostaWebForm.aspx</a> 
+</code></pre>
+                    </div> 
+                </div>
+                  <!-- CorrigeData FIM --> 
+                        
+                <!--CorrigirDouble INICIO -->
+                <br>        
+                <h4 id="box-CorrigirDouble" class="subtileLib">function CorrigirDouble()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>   
+                </ul>                                            
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Corrige o double digitado e insere dois zeros após a vírgula.</strong>
+                            <br />
+                            <br>    
+                            Chamar função: &lt;input type="text" class="corrigirDouble"&gt;;  
+                            <br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-CorrigirDouble">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-CorrigirDouble">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-CorrigirDouble">Chamada</a></li>                     
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-CorrigirDouble">
+                        <pre><code>$('.corrigirDouble').blur(function () {
+    if ($(this).val().length == 0) {
+        $(this).val() = "0,00";
+    }
+    else {
+        FormatDecimal($(this).val(), 2, ',', false);
+    }
+});</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-CorrigirDouble">
+                       <pre class="prime"><code>Campo : double</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-CorrigirDouble">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a> 
+
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>                          
+</code></pre>
+                    </div> 
+                </div>
+                  <!-- CorrigirDouble FIM -->                         
+                        
+                <!-- ExecutarJS INICIO -->
+                <br>        
+                <h4 id="box-ExecutarJS" class="subtileLib">function ExecutarJS()</h4>
+                <ul class="al">
+                    <li><b>Arquivos:</b> </li>
+                    <br />
+                    <b>- Auto Duas Rodas Online:</b> AutoDuasRodasOnLinePropostaDados.aspx.cs<br />
+                    * O produto Auto Duas Rodas Online possui apenas o "BTN Dados Cobrança".
+                    <br />
+                    <br />
+                    <b>- Condomínio:</b><br /> 
+                    ReConCotacao.aspx.cs<br /> 
+                    ReConCotacaoItem.aspx.cs<br />
+                    ReConPropostaDados.aspx.cs<br />                     
+                    ReConRiscoRestritoDadosComplementar.aspx.cs<br /> 
+                    * O produto condomínio não possui "BTN Dados Cobrança", mas possui o restante dos itens.
+                    <br /><br />
+                    <b>- Náutico:</b>
+                    ReNauticoPropostaDados.aspx.cs<br />
+                    * O produto Náutico possui todas as funções.
+                    <br /><br />
+                    <b>- Negócios Corporativos:</b>
+                    ReRDifPropostaDados.aspx.cs<br />
+					* O produto Negócios Corporativos possui apenas "DLL Pagamento", "BTN Dados Cobrança" e "DLL Parcelas".
+                    <br /><br />
+                    <b>- Previdência PGBL Individual Crescer:</b> PrevPGNCrescerPropostaDados.aspx.cs<br />  
+                    * O produto Previdência PGBL Individual Crescer possui apenas a "DLL Pagamento" e "DLL Parcelas".
+                    <br /><br />
+                    <b>- Vida Você Mulher:</b> MapfreVidaMPropostaDadosWebForm.aspx.cs<br />  
+                    * O produto Vida Você Mulher possui apenas a "ddlKitApolice", "DLL Parcelas" e "ddlGrauParentesco".
+                    <br />
+                    
+                <br />    
+                </ul>                                       
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função em comum utilizada em várias chamadas.</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ExecutarJS">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ExecutarJS">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-ExecutarJS">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ExecutarJS">
+                        <pre><code><b class="codigo">// DLL Pagamento</b>
+
+#region ddlPagamento_SelectedIndexChanged
+
+    private void ddlPagamento_SelectedIndexChanged(object sender, System.EventArgs e)
+	{
+	    ListarFormasPagamentoParecelas();
+	
+	//Se a Cotação ainda não foi Efetivada exclui os dados da cobrança
+	if (!Connect.v1000.Negocios.NegociosFuncoes.RetornarStatusEfetivado(GrupoRe.v100437.Negocios.NegociosNivelCotacao.RetornaNivelCotacao(CodCotacao)))
+	{	
+        LimparDadosDaCobranca();
+    }
+        
+    BrokerFuncoes.ExecutarJS(this, "Foco", <b>"$('#imbMaxHelp').focus()"</b>);
+		
+#endregion
+
+<b class="codigo">// DLL Parcelas</b>
+
+#region ddlQtdParcelas_SelectedIndexChanged
+
+    private void ddlQtdParcelas_SelectedIndexChanged(object sender, System.EventArgs e) 
+    {
+        PreencherDadosCobranca("Novo");
+        BrokerFuncoes.ExecutarJS(this, "Foco", <b>"$('#imbMaxHelp').focus()"</b>);   
+    }
+
+#endregion
+
+<b class="codigo">// BTN Dados Cobrança</b>
+
+#region btnDadosCobranca_Click
+
+    private void btnDadosCobranca_Click(object sender, System.EventArgs e)
+    {
+        VerificaTelaPagamento();
+        BrokerFuncoes.ExecutarJS(this,"Foco", <b>"$('#imbMaxHelp').focus()"</b>);
+    }
+
+#endregion
+
+<b class="codigo">// tbxCPF e CNPJ</b>
+
+#region tbxCpfCnpj_TextChanged
+
+    private void tbxCpfCnpj_TextChanged(object sender, System.EventArgs e)
+    {
+        errMensagem.Text = "";
+        ValidaCamposCnpjCpf();
+        if (errMensagem.Text == "") {
+            //CompararCampos(0);
+            BrokerFuncoes.ExecutarJS(this, "Foco", <b>"$('#tbxCpfCnpj').focus()"</b>);
+        }
+     }
+
+#endregion
+
+<b class="codigo">// ddlKitApolice</b>
+
+BrokerFuncoes.ExecutarJS(this, "Foco", <b>"$('#ddlKitApolice').focus()"</b>);
+
+<b class="codigo">// ddlGrauParentesco</b>
+
+BrokerFuncoes.ExecutarJS(this, "Foco", <b>"$('.ddlGrauParentesco'.focus()";</b>);
+</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ExecutarJS">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ExecutarJS">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>  
+   <a class="page-scroll" href="#box-ReConCotacaoItem">ReConCotacaoItem.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDados">ReConPropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-ReConRiscoRestritoDadosComplementar">ReConRiscoRestritoDadosComplementar.aspx</a>
+
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDados">ReNauticoPropostaDados.aspx</a>
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifPropostaDados">ReRDifPropostaDados.aspx</a>
+   
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>
+   
+<b>Vida Você Mulher:</b>               
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a>
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaWebForm">MapfreVidaMPropostaWebForm.aspx</a>  
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- ExecutarJS FIM --> 
+                        
+                <!-- ExecutarJS-MudarTargetVeioPopup INICIO -->
+                <br>        
+                <h4 id="box-ExecutarJS-MudarTargetVeioPopup" class="subtileLib">function ExecutarJS() - MudarTargetVeioPopup</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>  
+                </ul>                                                         
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função em comum utilizada em várias chamadas.</strong>
+                            <br>    
+                            <br>    
+                            Chamar função: &lt;input type="text" class="MudarTargetVeioPopup"&gt;;
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ExecutarJS-MudarTargetVeioPopup">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ExecutarJS-MudarTargetVeioPopup">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-ExecutarJS-MudarTargetVeioPopup">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ExecutarJS-MudarTargetVeioPopup">
+                        <pre><code>$('.MudarTargetVeioPopup').ready(function() {
+   if(typeof (window.opener) != 'undefined'){
+        window.opener.document.forms[0].target = '';
+   }   
+});                 </code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ExecutarJS-MudarTargetVeioPopup">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ExecutarJS-MudarTargetVeioPopup">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineOpcionais">AutoDuasRodasOnLineOpcionais.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineRelatorioExibir">AutoDuasRodasOnLineRelatorioExibir.aspx</a>
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConMensagemPopup">ReConMensagemPopup.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDadosItem">ReConPropostaDadosItem.aspx</a>
+   <a class="page-scroll" href="#box-ReConRelatorioExibir">ReConRelatorioExibir.aspx</a>
+   
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDadosItem">ReNauticoPropostaDadosItem.aspx</a>  
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifMensagemPopup">ReRDifMensagemPopup.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifRelatorioExibir">ReRDifRelatorioExibir.aspx</a>   
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- ExecutarJS - MudarTargetVeioPopup FIM -->
+                        
+                <!-- ExecutarJS-setFocusAndSelect INICIO -->
+                <br>        
+                <h4 id="box-ExecutarJS-setFocusAndSelect" class="subtileLib">function ExecutarJS() - setFocusAndSelect</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>  
+                </ul>                                                         
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função em comum utilizada em várias chamadas.</strong>
+                            <br>    
+                            <br>    
+                            Chamar função: &lt;input type="text" class="setFocusAndSelect"&gt;;
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ExecutarJS-setFocusAndSelect">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ExecutarJS-setFocusAndSelect">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-ExecutarJS-setFocusAndSelect">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ExecutarJS-setFocusAndSelect">
+                        <pre><code>function setFocusAndSelect(idControle) {
+    try {
+        // SLB - 20080710 - Obtém instância do controle informado
+        var controleFoco = $('idControle');
+
+        // SLB - 20080710 - Se o controle existe
+        if (controleFoco != null) {
+            // SLB - 20080710 - Se o controle está habilitado
+            if (typeof (controleFoco.disabled) == 'boolean' && !controleFoco.disabled) {
+                // SLB - 20080710 - Coloca o foco no controle
+                setTimeout('try { document.all[\'' + idControle + '\'].focus(); } catch(e) {}', 0);
+
+                // SLB - 20080710 - Se o controle é um TextBox
+                if (controleFoco.nodeName == 'TEXTAREA' || (controleFoco.nodeName == 'INPUT' 
+                    && controleFoco.type == 'text')) {
+					
+                    // SLB - 20080710 - Se possui a propriedade value
+                    if (typeof (controleFoco.value) == 'string') {
+                        // SLB - 20080710 - Se o conteúdo do TextBox não é vazio
+                        if (controleFoco.value.length > 0) {
+                            // SLB - 20080710 - Seleciona conteúdo do TextBox
+                            controleFoco.select();
+                        }
+                    }
+                }
+            }
+        }
+    }
+    catch (e) {
+
+    }
+}</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ExecutarJS-setFocusAndSelect">
+                       <pre class="prime"><code>idControle : inteiro</code></pre>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ExecutarJS-setFocusAndSelect">
+<pre class="cprime"><code><b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a>                       
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- ExecutarJS - setFocusAndSelect FIM --> 
+
+                <!-- ExibirMensagemAguardo INICIO -->
+                <br>        
+                <h4 id="box-ExibirMensagemAguardo" class="subtileLib">function ExibirMensagemAguardo()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReRDifRelatorioGerencialEmail.aspx</li>  
+                </ul>                                                         
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Exibe uma mensagem na tela do usuário.</strong>
+                            <br>    
+                            <br>    
+                            Chamar função: ExibirMensagemAguardo()
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ExibirMensagemAguardo">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ExibirMensagemAguardo">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-ExibirMensagemAguardo">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ExibirMensagemAguardo">
+                        <pre><code>function ExibirMensagemAguardo(qtd) {
+    var mensagem = "Processando envio de e-mail";
+    for (i = 1; i <= qtd; i++) {
+        mensagem += '.';
+    }
+
+    $('#errMensagem').text(mensagem);
+
+    qtd = (qtd == 3) ? 1 : ++qtd;
+
+    setTimeout('ExibirMensagemAguardo(' + qtd + ')', 500);
+}</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ExibirMensagemAguardo">
+                       <pre class="prime"><code>qtd : inteiro</code></pre>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ExibirMensagemAguardo">
+<pre class="cprime"><code><b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifRelatorioGerencialEmail">ReRDifRelatorioGerencialEmail.aspx</a>
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- ExibirMensagemAguardo FIM -->  				  
+                        
+                <!-- fecharJanelaCoberturaExtra INICIO -->
+                <br />
+                <h4 id="box-fecharJanelaCoberturaExtra" class="subtileLib">function fecharJanelaCoberturaExtra()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> AutoDuasRodasSpecialOnLineCotacao.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função que fecha uma janela.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="fecharJanelaCoberturaExtra"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-fecharJanelaCoberturaExtra">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-fecharJanelaCoberturaExtra">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-fecharJanelaCoberturaExtra">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-fecharJanelaCoberturaExtra">
+                        <pre><code>$('.fecharJanelaCoberturaExtra').OnClick(function(){
+      if (_cotacaoItemCoberturasExtras != null) {
+          try {
+             _cotacaoItemCoberturasExtras.close();
+        }
+        catch (e) { }
+        }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-fecharJanelaCoberturaExtra">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-fecharJanelaCoberturaExtra">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- fecharJanelaCoberturaExtra FIM -->
+                        
+                <!-- fecharPopupPreVenda INICIO -->
+                <br />
+                <h4 id="box-fecharPopupPreVenda" class="subtileLib">function fecharPopupPreVenda()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Verifica se existe algum Popup de pré-venda caso sim, o fecha.</strong>
+                            <br>
+                            <br>
+                            Chamar função: fecharPopupPreVenda()
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-fecharPopupPreVenda">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-fecharPopupPreVenda">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-fecharPopupPreVenda">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-fecharPopupPreVenda">
+                        <pre><code>function fecharPopupPreVenda() {
+    if ($(this).parent('#pagePreVenda') != null) {
+        $(this).parent('#pagePreVenda').close();
+    }
+}</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-fecharPopupPreVenda">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-fecharPopupPreVenda">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>   
+   
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- fecharPopupPreVenda FIM -->                        
+                        
+                <!-- formartEntradaDecimal INICIO -->
+                <br />
+                <h4 id="box-formartEntradaDecimal" class="subtileLib">function formartEntradaDecimal()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Formata a entrada de caracteres.</strong>
+                            <br>
+                            Quando o usuario estiver digitando os números no campo a função verificará se está sendo digitado mais inteiros que o permitido, após realiza a verificação, troca e faz a divisão dos decimais.
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="formartEntradaDecimal"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-formartEntradaDecimal">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-formartEntradaDecimal">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-formartEntradaDecimal">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-formartEntradaDecimal">
+                        <pre><code>$('.formartEntradaDecimal').keyup(function () {
+    var count = $(this).val().length;
+    var valor = $(this).val();
+    var position1 = $(this).data('item-formart') - 1;
+    
+    if ((count >= $(this).data('item-formart')) && (!valor.match(",")) 
+       && (valor.substring(position1, $(this).data('item-formart')) != ',')) {
+        
+        valor = valor.replace(',', '');
+        valor = valor.substring(0, position1) + ',' + valor.substring(position1, vIntSeparadorDecimal + 1);
+        $(this).val(valor);
+    }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-formartEntradaDecimal">
+                       <pre class="prime"><code>pStrField : string<br />vIntSeparadorDecimal : inteiro</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-formartEntradaDecimal">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConAnaliseBO">ReConAnaliseBO.aspx</a>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a>
+   
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifSubscricao">ReRDifSubscricao.aspx</a>   
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- formartEntradaDecimal FIM --> 	                        
+                        
+               <!-- FormatDecimal INICIO -->
+                <br>        
+                <h4 id="box-FormatDecimal" class="subtileLib">function FormatDecimal()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>    
+                </ul>                                                   
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função que organiza os números com casas decimais inseridas no portal.</strong>
+                            <br>
+                            Recebe um número, verifica o dado recebido, caso possua mais de três casas inclui um ponto, organiza a quantidade de casas decimais e após o número insere dois zeros.
+                            <br>
+                            <br>
+                            Ex:
+                            <br>Entrada: 2563
+                            <br>
+                            Resultado: 2.563,00
+                            <br>
+                            <br>    
+                            Chamar função: &lt;input type="text" class="formatDecimal"&gt;;                            
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-FormatDecimal">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-FormatDecimal">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-FormatDecimal">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-FormatDecimal">
+                        <pre><code>$('.formatDecimal').blur(function () {
+
+    //pStrField, vIntQdDec, pStrSeparadorDecimal, pBlnIsRequired
+    var vIntPosPonto, vIntPosVirgula;
+    var vStrNewValue = pStrField.value;
+
+
+    // remove todos os pontos digitados
+    while (pStrField.value.indexOf(".") > 0)
+        pStrField.value = pStrField.value.replace("\.", "");
+
+    if ((pStrField.value.length > 0) || pBlnIsRequired) {
+        if ((!check_decimal(pStrField.value, true)) || (pStrField.value == 0)) {
+            if (pStrField.value == 0) {
+                pStrField.value = pStrField.value;
+            } else {
+                pStrField.select();
+            }
+        } else {
+            vIntPosVirgula = pStrField.value.indexOf(pStrSeparadorDecimal);
+            if (vIntPosVirgula > -1) {
+                if (vIntPosVirgula == 0)
+                    vStrNewValue = "0," + pStrField.value.substring(vIntPosVirgula + 1, pStrField.value.length);
+                else
+                    vStrNewValue = pStrField.value.substring(0, vIntPosVirgula) + pStrSeparadorDecimal +
+                    pStrField.value.substring(vIntPosVirgula + 1, pStrField.value.length);
+
+                if (vStrNewValue.length - vIntPosVirgula < vIntQdDec + 1) {
+                    for (var i = vStrNewValue.length - vIntPosVirgula; i < vIntQdDec + 1; i++)
+                        vStrNewValue = vStrNewValue + "0";
+                } else if (vStrNewValue.length - vIntPosVirgula > vIntQdDec + 1)
+                    vStrNewValue = vStrNewValue.substring(0, vIntPosVirgula + vIntQdDec + 1);
+            } else
+                vStrNewValue = pStrField.value + pStrSeparadorDecimal + "00";
+
+            var tempStr = "";
+            var startCount = vStrNewValue.lastIndexOf(",") - 1;
+            for (var x = startCount; x >= 0; x--) {
+                if (((startCount - x) != 0) && ((startCount - x) % 3 == 0))
+                    tempStr = "." + tempStr;
+                tempStr = vStrNewValue.charAt(x) + tempStr;
+            }
+            pStrField.value = tempStr + vStrNewValue.substring(vStrNewValue.lastIndexOf(","), vStrNewValue.length);
+        }
+    }
+});</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-FormatDecimal">
+                       <pre class="prime"><code>pStrField : double<br>vIntQdDec : inteiro<br>pStrSeparadorDecimal : string<br>pBlnIsRequired : boolean</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-FormatDecimal">
+<pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineOpcionais">AutoDuasRodasOnLineOpcionais.aspx</a>
+
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineOpcionais">AutoDuasRodasSpecialOnLineOpcionais.aspx</a> 
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConAnaliseBO">ReConAnaliseBO.aspx</a>
+   <a class="page-scroll" href="#box-ReConItemCotacaoSubscricao">ReConItemCotacaoSubscricao.aspx</a>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a>
+   
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoCoberturas">ReNauticoCotacaoCoberturas.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoItemRisco">ReNauticoCotacaoItemRisco.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoTelaSubscricao">ReNauticoTelaSubscricao.aspx</a>     
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a> 
+   <a class="page-scroll" href="#box-ReRDifDadosComplementaresVistoria">ReRDifDadosComplementaresVistoria.aspx</a> 
+   <a class="page-scroll" href="#box-ReRDifProperty">ReRDifProperty.aspx</a> 
+   <a class="page-scroll" href="#box-ReRDifSubscricao">ReRDifSubscricao.aspx</a>      
+ 
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacaoItem">PrevPGNCrescerCotacaoItem.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacaoItemCoberturas">PrevPGNCrescerCotacaoItemCoberturas.aspx</a>
+   
+<b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMCotacaoWebForm">MapfreVidaMCotacaoWebForm.aspx</a>  
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- FormatDecimal FIM --> 
+                        
+                <!-- isEmail INICIO -->
+                <br />
+                <h4 id="box-isEmail" class="subtileLib">function isEmail()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada para validar e-mail inserido.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="isEmail"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-isEmail">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-isEmail">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-isEmail">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-isEmail">
+                        <pre><code>$('.isEmail').OnBlur(function(email){
+    var varEmail = email.value;
+    
+    var intPosCarac = varEmail.indexOf("@");
+    if (intPosCarac == -1) {
+        return email.value = "";
+    } else {
+        var strDepois = varEmail.substr(intPosCarac + 1, varEmail.length - intPosCarac);
+        var strAntes = varEmail.substr(0, intPosCarac);
+        intPosCarac = strDepois.indexOf(".");
+        
+        if (strAntes.charAt(strAntes.length - 1) == ".") {
+            email.value = "";
+        }
+
+        for (i = 0; i < varEmail.length; i++) {
+            var c = varEmail.charAt(i);
+            if (c == " ") {
+                return email.value = "";
+            }
+        }
+
+        if (varEmail.length == varEmail.lastIndexOf(".con") + 4) {
+            return email.value = "";
+        }
+        if (varEmail.length == varEmail.lastIndexOf(".con.br") + 7) {
+            return email.value = "";
+        }
+        if (varEmail.length == varEmail.lastIndexOf(".com.b") + 6) {
+            return email.value = "";
+        }
+        if (varEmail.lastIndexOf("www.") != -1) {
+            return email.value = "";
+        }
+
+        if (intPosCarac == -1) {
+            return email.value = "";
+        } else {
+            while (intPosCarac != -1) {
+                if (strAntes == "" || strAntes == "." || strDepois == "." || (!ValidaAlfa(strDepois)) || (!ValidaAlfa(strAntes))) {
+                    return email.value = "";
+                } else {
+                    strDepois = strDepois.substr(intPosCarac + 1, strDepois.length - intPosCarac);
+                    strAntes = strDepois.substr(0, intPosCarac);
+                    if (strAntes == "" || (!ValidaAlfa(strDepois)) || (!ValidaAlfa(strAntes)))
+                        return email.value = "";
+                }
+                intPosCarac = strDepois.indexOf(".");
+            }
+        }
+    }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-isEmail">
+                       <pre class="prime"><code>email : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-isEmail">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+    <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+
+<b>Auto Duas Rodas Special Online:</b>
+    <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConProposta">ReConProposta.aspx</a>
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- isEmail FIM --> 	
+                    
+                <!-- limitaSelecao INICIO -->
+                <br />
+                <h4 id="box-limitaSelecao" class="subtileLib">function limitaSelecao()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> PrevPGNCrescerProposta.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Limita a quantidade de selectbox que poderão ser marcados.</strong>
+                            <br>
+                            <br>
+                            Chamar função: limitaSelecao()
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-limitaSelecao">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-limitaSelecao">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-limitaSelecao">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-limitaSelecao">
+                        <pre><code>function limitaSelecao(e) {
+    var checkBox = e.srcElement;
+    if (checkBox.checked) {
+        var qtde = 0;
+        for (var i = 0; i < checkBoxes.length; i++) {
+            if (checkBoxes[i].checked)
+                qtde++;
+        }
+        if (qtde > 3) {
+            checkBox.removeAttribute("checked");
+            checkBox.checked = false;
+            return false;
+        }
+    }
+}</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-limitaSelecao">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-limitaSelecao">
+                       <pre class="cprime"><code><b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerProposta">PrevPGNCrescerProposta.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>  
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- limitaSelecao FIM --> 
+                    
+                <!-- LimparEspacos INICIO -->
+                <br />
+                <h4 id="box-LimparEspacos" class="subtileLib">function LimparEspacos()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função que irá limpar o texto de um campo caso o mesmo esteja somente com espaços em branco.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="limparEspacos"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-LimparEspacos">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-LimparEspacos">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-LimparEspacos">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-LimparEspacos">
+                        <pre><code>$('.limparEspacos').blur(function () {
+    var valor = $(this).val().replace(" ", "");
+    while (valor.indexOf(' ') != -1) {
+        $(this).val(valor.replace(' ', ''));
+    }
+
+    if (valor.length == 0) {
+        $(this).val("");
+    }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-LimparEspacos">
+                       <pre class="prime"><code>campo : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-LimparEspacos">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- LimparEspacos FIM --> 
+                    
+                <!-- Linha - cbxPerfil INICIO -->
+                <br />
+                <h4 id="box-LinhacbxPerfil" class="subtileLib">Linha - cbxPerfil</h4>
+                <ul class="al">
+                    <li><b>Arquivos:</b> </li>
+                    <br />
+                    <b>- Auto Duas Rodas Online:</b> AutoDuasRodasOnLineCotacao.aspx<br />
+                    <br />
+                    <b>- Auto Duas Rodas Special Online:</b> AutoDuasRodasSpecialOnLineCotacao.aspx<br />
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-LinhacbxPerfil">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-LinhacbxPerfil">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-LinhacbxPerfil">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-LinhacbxPerfil">
+                        <pre><code>$('#cbxPerfil').attr("style", "border:none");</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-LinhacbxPerfil">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-LinhacbxPerfil">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>
+
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>
+</code></pre>
+
+                    </div>                        
+                </div>
+                  <!-- Linha - cbxPerfil FIM -->
+                    
+                <!-- Linha - LinhasetarScroll INICIO -->
+                <br />
+                <h4 id="box-LinhasetarScroll" class="subtileLib">Linha - setarScroll</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b>
+					<br /><br />					
+					<b>Auto Duas Rodas Online: </b>AutoDuasRodasOnLineCotacao.aspx
+					<br /><br />
+					<b>Auto Duas Rodas Special Online: </b>AutoDuasRodasSpecialOnLineCotacao.aspx
+					</li>
+				</ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-LinhasetarScroll">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-LinhasetarScroll">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-LinhasetarScroll">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-LinhasetarScroll">
+                        <pre><code>btnCalcular.Attributes.Add("OnClick", "<b>$('errMensagem')</b>.innerText = ''; setarScroll();");
+                        
+btnBuscar.Attributes.Add("OnClick", "<b>$('errMensagem')</b>.innerText = ''; setarScroll();");</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-LinhasetarScroll">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-LinhasetarScroll">
+                       <pre class="cprime"><code><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>
+
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLineCotacao">AutoDuasRodasSpecialOnLineCotacao.aspx</a>
+</code></pre>
+                    </div>                        
+                </div>
+                  <!-- Linha - LinhasetarScroll FIM -->     
+
+                <!-- Linha - Linhaselfclose INICIO -->
+                <br />
+                <h4 id="box-Linhaselfclose" class="subtileLib">Linha - self.close</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReRDifFormaPagamentoBO.aspx.cs</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-Linhaselfclose">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-Linhaselfclose">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-Linhaselfclose">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-Linhaselfclose">
+                        <pre><code>Aguardando JQuery.</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-Linhaselfclose">
+                       <pre class="nprime"><code>Esta function não possui parâmetro.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-Linhaselfclose">
+                       <pre class="cprime"><code><b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifFormaPagamentoBO">ReRDifFormaPagamentoBO.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- Linha - Linhaselfclose FIM --> 				  
+                        
+                <!-- LimitoTexto INICIO -->
+                <br />
+                <h4 id="box-LimitoTexto" class="subtileLib">function LimitoTexto()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConTelaRepique.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Limita a quantidade de caracteres de um texto.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" id="tbxObs"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-LimitoTexto">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-LimitoTexto">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-LimitoTexto">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-LimitoTexto">
+                        <pre><code>$('#tbxObs').keydown(function () {
+    var texto = $(this).val();
+    textTrim = $.trim(texto);
+    var caracteres = 500;
+
+    if (textTrim.length > caracteres) {
+        $('#tbxObs').val(textTrim.substr(0, caracteres));
+    }
+});  </code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-LimitoTexto">
+                       <pre class="prime"><code>texto : string<br />caracteres : inteiro</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-LimitoTexto">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- LimitoTexto FIM --> 	  
+                        
+                <!-- ManterScroll INICIO -->
+                <br />
+                <h4 id="box-ManterScroll" class="subtileLib">function ManterScroll()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConCotacao.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Caso exista mensagem de erro determina onde o scroll vai se posicionar.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="ManterScroll"&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-ManterScroll">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-ManterScroll">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-ManterScroll">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-ManterScroll">
+                        <pre><code>$('.manterScroll').load(function () {
+
+    if ($('#errMensagem').text() == '') {
+        $(window).scroll(0, " + $('#hdnScroll').val() + ");
+    }
+    else {
+        $(window).scroll(0, 3000);
+        $('#hdnScroll').val(3000);
+    }
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-ManterScroll">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-ManterScroll">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- ManterScroll FIM --> 	                        
+                        
+                  <!-- MaxLength INICIO -->
+                <br>        
+                <h4 id="box-MaxLength" class="subtileLib">function MaxLength()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReNauticoCotacao.aspx</li>    
+                </ul>                                             
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Verifica o tamanho do comprimento de um certo elemento.</strong>
+                            </span>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" id="tbxMotivoPedDesconto"&gt;;    
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-MaxLength">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-MaxLength">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-MaxLength">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-MaxLength">
+                        <pre><code>$('#tbxMotivoPedDesconto').keydown(function () {
+    var control = $('#tbxMotivoPedDesconto').val();
+    var maxlength = 600;
+    if (control.length >= maxlength) {
+        $('#tbxMotivoPedDesconto').val(control.substr(0, maxlength));
+    }
+});
+</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-MaxLength">
+                       <pre class="prime"><code>elementId : inteiro<br>maxlength : inteiro</code></pre>
+                    </div>
+                   <div role="tabpanel" class="tab-pane" id="chamadas-box-MaxLength">
+<pre class="cprime"><code><b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+</code></pre>
+                    </div>  
+                </div>                       
+                <br>
+                <!-- MaxLength FIM -->
+                        
+                <!-- negative INICIO -->    
+                <h4 id="box-negative" class="subtileLib">function negative()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>   
+                </ul>                                              
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Verifica se o número inserido é negativo.</strong>
+                            <p>Função usada para validar números negativos no page_load.</p>    
+                            <br>
+                            Chamar função: &lt;input type="text" class="negative"&gt;; 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-negative">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-negative">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-negative">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-negative">
+                        <pre><code>$('.negative').keyup(function () {
+    if ($(this).val().match("^(-)$|^([0-9]|\-[0-9]){1,2}$")) {
+        if ($(this).val().length > 1) {
+            $(this).val() = $(this).val().substr(0, $(this).val().length - 1);
+        } else {
+            $(this).val("");
+            return;
+        }
+    }
+});                 </code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-negative">
+                       <pre class="prime"><code>Element : inteiro</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-negative">
+<pre class="cprime"><code><b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoTelaSubscricao">ReNauticoTelaSubscricao.aspx</a>         
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- negative FIM -->    
+                        
+                <!-- Redimensionar FORM ao tamanho do conteúdo INICIO -->
+                <br />
+                <h4 id="box-Redimensionar-FORM" class="subtileLib">function Redimensionar FORM ao tamanho do conteúdo()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConDefinicaoPergunta.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Redimensiona formulário ao tamanho do conteúdo.</strong>
+                            <br>
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-Redimensionar-FORM">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-Redimensionar-FORM">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-Redimensionar-FORM">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-Redimensionar-FORM">
+                        <pre><code>$(document).ready(function () {            
+    $(window).resize(function() {
+        var w = $(window), d = $(document), b = $('body');
+        window.resizeTo(0, ((b.height() - w.height() + 50) || d.height() - w.height() + 50));
+        
+    });
+});</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-Redimensionar-FORM">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-Redimensionar-FORM">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+    <a class="page-scroll" href="#box-ReConDefinicaoPergunta">ReConDefinicaoPergunta.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- Redimensionar FORM ao tamanho do conteúdo FIM --> 	
+                        
+                <!-- RedimensionarTela INICIO -->
+                <br />
+                <h4 id="box-RedimensionarTela" class="subtileLib">function RedimensionarTela()</h4>
+                <ul class="al">
+                    <li><b>Arquivos:</b></li>
+					<br />
+					<b>Condomínio:</b> ReConMensagemPopup.aspx  
+					<br /><br />
+					<b>Negócios Corporativos:</b> ReRDifMensagemPopup.aspx
+					<br />
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Redimensiona o tamanho da tela de acordo com os parâmetros passados.</strong>
+                            <br>
+                            <br>
+                            Chamar função: RedimensionarTela()
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-RedimensionarTela">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-RedimensionarTela">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-RedimensionarTela">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-RedimensionarTela">
+                        <pre><code><b class="codigo">// Condomínio</b>
+						
+$('.RedimensionarTela').keydown(function () {
+    var x = $('body').outerWidth() + 80;
+    var y = $('body').outerHeight() + 80;
+
+    try {
+        window.resizeTo(x, y);
+    }
+    catch (e) {
+    }
+
+    try {
+        $(window).moveTo((screen.availWidth - x) / 2, (screen.availHeight - y) / 2);
+    }
+    catch (e) {
+    }
+});  
+
+<b class="codigo">// Negócios Corporativos</b>
+						
+function RedimensionarTela() {
+    var x = $(body).width() + 20;
+    var y = $(body).height() + 20;
+
+    try {
+        $(window).resize(function () {
+
+            // var nh = $(window).height(), nw = $(window).width();
+            // compare the corresponding variables.
+            h = y; w = x; // update h and w;
+        });
+    }
+    catch (e) {
+    }
+
+    try {
+        $(window).animate({
+            width: (screen.availWidth - x) / 2,
+            height: (screen.availHeight - y) / 2
+
+        });
+        // window.moveTo((screen.availWidth - x) / 2, (screen.availHeight - y) / 2);
+    }
+    catch (e) {
+    }
+}</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-RedimensionarTela">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-RedimensionarTela">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConMensagemPopup">ReConMensagemPopup.aspx</a>
+   
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifMensagemPopup">ReRDifMensagemPopup.aspx</a> </code></pre>
+                    </div>                        
+                </div>
+                  <!-- RedimensionarTela FIM --> 	                        
+                        
+                <!-- SetarFoco() INICIO --> 
+                <br />
+                <h4 id="box-SetarFoco" class="subtileLib">function SetarFoco()</h4>
+                <ul class="al"> 
+                    <li><b>Arquivos:</b> </li>
+                    <br /> 
+                    <b>- Náutico:</b> ReNauticoCotacao.aspx.cs<br />
+                    <b>- Condomínio:</b> ReConCotacao.aspx.cs<br /> 
+                    <br />
+                </ul>                                              
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função em comum utilizada em várias chamadas.</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-SetarFoco">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-SetarFoco">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-SetarFoco">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-SetarFoco">
+                        <pre><code>#region SetarFoco
+private void SetarFoco(Control controle)
+{
+    RegisterStartupScript("Foco", "&lt;script&gt;<b>$('" + controle.ID + "').focus();</b>&lt;/script&gt;");
+}
+#endregion                 </code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-SetarFoco">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-SetarFoco">
+<pre class="cprime"><code><b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>   
+</code></pre>
+                    </div>                    
+                </div>
+                  <!-- SetarFoco FIM -->  
+                    
+                <!-- setaSimuladorPopup INICIO -->
+                <br>        
+                <h4 id="box-setaSimuladorPopup" class="subtileLib">function setaSimuladorPopup()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>    
+                </ul>                                                         
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Usada para abertura de telas popup via transfer.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="setaSimuladorPopup"&gt;; 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-setaSimuladorPopup">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-setaSimuladorPopup">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-setaSimuladorPopup">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-setaSimuladorPopup">
+                        <pre><code>Aguardando função.</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-setaSimuladorPopup">
+                       <pre class="prime"><code>tela : string
+width : string
+height : string
+top : string
+left : string
+resize : string
+scroll : string
+status : string
+</code></pre>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-setaSimuladorPopup">
+                       <pre class="cprime"><code><b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacao">PrevPGNCrescerCotacao.aspx</a></code></pre>
+                    </div>                    
+                    
+                </div>
+                  <!-- setaSimuladorPopup FIM -->                      
+                        
+                <!-- setaSubmitPopup INICIO -->
+                <br>        
+                <h4 id="box-setaSubmitPopup" class="subtileLib">function setaSubmitPopup()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>    
+                </ul>                                                         
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Usada para abertura de telas popup via transfer.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="text" class="setaSubmitPopup"&gt;; 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-setaSubmitPopup">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-setaSubmitPopup">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-setaSubmitPopup">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-setaSubmitPopup">
+                        <pre><code>$('.setaSubmitPopup').click(function (e) {
+
+    e.preventDefault();
+    var data = $(this).data("item-id");
+    var tela, width, height, top, left, resize, scroll, status;
+    tela = $(this).data("item-id").split(',')[0];
+    width = $(this).data("item-id").split(',')[1];
+    height = $(this).data("item-id").split(',')[2];
+    top = $(this).data("item-id").split(',')[3];
+    left = $(this).data("item-id").split(',')[4];
+    resize = $(this).data("item-id").split(',')[5];
+    scroll = $(this).data("item-id").split(',')[6];
+    status = $(this).data("item-id").split(',')[7];
+
+    var str = 'top=' + top + ',left=' + left + ',fullscreen=no,scrollbars=' + scroll + 
+    ',status=no,menubar=no,resizable=' + resize + ',width=' + width + ',height=' + height + ''
+
+    janelaPopup = window.open('', tela, str);
+    janelaPopup.focus();
+
+    $(this).attr('OnClick', '');
+    return false;
+});                      </code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-setaSubmitPopup">
+                       <pre class="prime"><code>Tela : string
+Width : string
+Height : string
+Top : string
+Left : string
+Resizable : string
+Scroll : string
+Status : string
+</code></pre>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-setaSubmitPopup">
+                       <pre class="cprime"><b>Auto Duas Rodas Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLineCotacao">AutoDuasRodasOnLineCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaDados">AutoDuasRodasOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasOnLinePropostaItem">AutoDuasRodasOnLinePropostaItem.aspx</a>
+
+<b>Auto Duas Rodas Special Online:</b>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaDados">AutoDuasRodasSpecialOnLinePropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-AutoDuasRodasSpecialOnLinePropostaItem">AutoDuasRodasSpecialOnLinePropostaItem.aspx</a>    
+
+<b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReConCotacaoItem">ReConCotacaoItem.aspx</a>
+   <a class="page-scroll" href="#box-ReConProposta">ReConProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDados">ReConPropostaDados.aspx</a>
+   
+<code><b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoDemaisDados">ReNauticoCotacaoDemaisDados.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoCotacaoItemRisco">ReNauticoCotacaoItemRisco.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoProposta">ReNauticoProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDadosItem">ReNauticoPropostaDadosItem.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoTelaSubscricao">ReNauticoTelaSubscricao.aspx</a>   
+
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifProposta">ReRDifProposta.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifPropostaDados">ReRDifPropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifRelatorioGerencial">ReRDifRelatorioGerencial.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifSubscricao">ReRDifSubscricao.aspx</a>  
+   
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacao">PrevPGNCrescerCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerProposta">PrevPGNCrescerProposta.aspx</a>
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>
+   
+<b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMCotacaoWebForm">MapfreVidaMCotacaoWebForm.aspx</a>                       
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a>
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaWebForm">MapfreVidaMPropostaWebForm.aspx</a></code></pre>                        
+                    </div>                    
+                    
+                </div>
+                  <!-- setaSubmitPopup FIM -->  
+                        
+                <!-- String-prototype-trim INICIO -->
+                <br />
+                <h4 id="box-String-prototype-trim" class="subtileLib">function String.prototype.trim = function ()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> ReConTelaRepique.aspx</li>
+                </ul>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Substituir itens determinados por espaço</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;?&gt;;
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-String-prototype-trim">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-String-prototype-trim">Parâmetros</a></li>   
+                    <li role="presentation"><a href="#chamadas-box-String-prototype-trim">Chamada</a></li>  
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-String-prototype-trim">
+                        <pre><code>String.prototype.trim = function () {
+    return this.replace("/^\s+|\s+$/g", "");
+}</code>
+</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-String-prototype-trim">
+                       <pre class="nprime"><code>Esta function não possui parâmetros.</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-String-prototype-trim">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConTelaRepique">ReConTelaRepique.aspx</a></code></pre>
+                    </div>                        
+                </div>
+                  <!-- String-prototype-trim FIM --> 	                        
+                        
+                <!-- TurnImage INICIO -->
+                <br>        
+                <h4 id="box-TurnImage" class="subtileLib">function TurnImage()</h4>
+                <ul class="al">
+                    <li><b>Arquivo:</b> scripts.js</li>   
+                </ul>                                                      
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span><strong>Função usada nos ImageButtons.</strong>
+                            <br>
+                            <br>
+                            Chamar função: &lt;input type="button" class="turnImage"&gt;; 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#html-box-TurnImage">JQuery</a></li>
+                    <li role="presentation"><a href="#parametros-box-TurnImage">Parâmetros</a></li>
+                    <li role="presentation"><a href="#chamadas-box-TurnImage">Chamada</a></li> 
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="html-box-TurnImage">
+                        <pre><code>$('.turnImage').bind("mouseover mouseout", function () {
+    var objeto = $(this);
+    if (objeto == null) {
+        return;
+    }
+    
+    var src = objeto.attr('src');
+    if (src.indexOf("_on.gif") == -1) {
+        $(this).attr('src', src.replace(".gif", "_on.gif"));
+        //objeto.src = src.replace(".gif", "_on.gif");
+    } else {
+        $(this).attr('src', src.replace("_on", ""));
+        //objeto.src = src.replace("_on", "");
+      }
+
+    });
+});</code></pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="parametros-box-TurnImage">
+                       <pre class="prime"><code>nome : string</code></pre>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane" id="chamadas-box-TurnImage">
+                       <pre class="cprime"><code><b>Condomínio:</b>
+   <a class="page-scroll" href="#box-ReConCotacao">ReConCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReConPropostaDados">ReConPropostaDados.aspx</a>
+
+<b>Náutico:</b>
+   <a class="page-scroll" href="#box-ReNauticoCotacao">ReNauticoCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoPropostaDados">ReNauticoPropostaDados.aspx</a>
+   <a class="page-scroll" href="#box-ReNauticoTelaSubscricao">ReNauticoTelaSubscricao.aspx</a>
+ 
+<b>Negócios Corporativos:</b>
+   <a class="page-scroll" href="#box-ReRDifCotacao">ReRDifCotacao.aspx</a>
+   <a class="page-scroll" href="#box-ReRDifPropostaDados">ReRDifPropostaDados.aspx</a>    
+ 
+<b>Previdência PGBL Individual Crescer:</b>
+   <a class="page-scroll" href="#box-PrevPGNCrescerCotacao">PrevPGNCrescerCotacao.aspx</a>                       
+   <a class="page-scroll" href="#box-PrevPGNCrescerPropostaDados">PrevPGNCrescerPropostaDados.aspx</a>
+   
+<b>Vida Você Mulher:</b>
+   <a class="page-scroll" href="#box-MapfreVidaMCotacaoWebForm">MapfreVidaMCotacaoWebForm.aspx</a>                       
+   <a class="page-scroll" href="#box-MapfreVidaMPropostaDadosWebForm">MapfreVidaMPropostaDadosWebForm.aspx</a></code></pre>
+                    </div>
+                    </div>
+                </div>
+                  <!-- TurnImage FIM --> 
+                    
+  
+                       
+        </div>              
+      </div>                
+    </div>    
+            
+            
+    <!-- conteudo fim -->
+
+    <!-- back to top -->
+    <div class="btn-subir" id="back-top" style="position:fixed; right:17px; bottom:20px;">
+      <a href="#" class="subir"><img src="img/menu-subir.png" alt=""></a>
+    </div>
+    <!-- back to top fim -->
+
+    <!-- anexos -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+  </body>
+</html>
