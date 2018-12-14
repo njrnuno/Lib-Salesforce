@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LIB - Salesforce</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <link rel="stylesheet" type="text/css" href="css/Parametros.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/icones/font-awesome.css">
+	
+  </head>
+  <body>
+  
+    <!-- menu lateral -->
+    <div class="bg-menu-lateral">
+      <!-- menu mobile -->
+      <div class="menumobile">
+        <a href="#" id="menumobile"><img src="img/btn-mobile.jpg" alt=""></a>
+      </div>
+      <!-- menu mobile fim -->
+	  
+	  
+      <img class="img-responsive" src="img/salesforce2.png" alt="">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  
+		<!--INÍCIO Cascading Style Sheets - CSS !-->   
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-css" aria-expanded="true" aria-controls="collapse-css"><br />
+                Esteira de Implantação
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-css" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+			    <li><a class="page-scroll" href="#box-ferramentas" id="ferramentas">Ferramentas</a></li>
+                <li><a class="page-scroll" href="#box-confAmbiente" id="confAmbiente">Configuração do Ambiente</a></li>
+				<li><a class="page-scroll" href="#box-horario" id="horario">Horários das Janelas</a></li>
+                <li><a class="page-scroll" href="#box-passos" id="passos">Passo a Passo</a></li>
+                <li><a class="page-scroll" href="#box-erros" id="erros">Banco de Erros</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>
+		<!--FIM Functions Cascading Style Sheets - CSS !-->  
+		
+	    		
+        <!--INÍCIO Plantão !-->   
+         
+		<div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading-1">
+            <h4 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-plantao" aria-expanded="true" aria-controls="collapse-plantao"><br />
+                Plantão
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-plantao" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+            <div class="panel-body">
+              <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+				<li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>
+              </ul>
+              <!-- Navigation -->
+            </div>
+          </div>
+        </div>        
+        <!--FIM Plantão !-->
+          
+      </div>
+    </div>
+    <!-- menu lateral fim -->
+
+	<!-- INFORMAÇÕES -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-2">
+				<div class="bs-callout bs-callout-danger">
+					<h1 class="everisDevOps ">DevOps Salesforce everis - Vivo </h1>
+					<img src="img/DevOps01.png" class="devops" height="50%" width="50%" >
+					<br>
+					<p>
+					O(a) profissional de <i><b>DevOps</b></i> (abreviação de Desenvolvedor & Operações) é o(a) responsável por otimizar a produtividade 
+					dos desenvolvedores e a confiabilidade das operações, desde a etapa de idealização, passando pelo desenvolvimento, 
+					até o feedback para garantia de que o produto atenda as necessidades dos clientes. 
+					Sua motivação é a comunicação, colaboração e integração contínua entre as duas equipes, 
+					promovendo a padronização de processos, liberação e implementação mais veloz de novas versões.
+					</p>
+					<p>A filosofia pregada pela <i><b>DevOps</b></i> é de entrega contínua, com pequenos pedaços de código a cada vez. Considera
+					que as mudanças no contexto de negócio acontecem tão rápido e com tanta frequência que esperar acumular
+					todas elas é colocar em risco o negócio. Os profissionais de <i><b>DevOps</b></i> devem preoucupar-se com:</p>
+							<ul>
+								<li>entrega contínua de novas funcionalidades, em doses pequenas;</li>
+								<li>uso de equipes dedicadas, cross-functional e pequenas;</li>
+								<li>arquitetura loose coupling;</li>
+								<li>ambiente automatizado por excelência;</li>
+								<li>integração e testes contínuos;</li>
+								<li>ambiente interativo e colaborativo, com usuários, operação e desenvolvimento atuando em conjunto, sem fricções entre os setores.</li>
+								
+								
+							</ul>
+						<br>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-2">
+				<div class="bs-callout bs-callout-danger">
+					<!-- <p><b>INFORMAÇÕES GERAIS PARA PREENCHIMENTO DA LIB</b></p> -->
+					<img src="img/salesforceEsteira.png" class="img-responsive" alt="img-esteira" id ="imgEsteira">
+					<br>
+					<ul>
+						<li><strong>Ambiente de DEV:</strong> Ambiente de Desenvolvimento. Destinado para os desenvolvedores atuarem e fazerem as
+						devidas mudanças cabíveis.</li><br>
+						<li><strong>Ambiente de MERGE:</strong> Ambiente entre o Ambiente de Desenvolvilmento e UAT, de modo técnico podemos
+						chamá-lo de Ambiente de Pré homologação. Destinado para uma pré verifição do software, tal deve funcionar de forma
+						espera pelo cliente.</li><br>
+						
+						<li><strong>Ambiente de UAT: </strong>Ambiente de Homologação do cliente. Destinado a fazer exatamente todo processo do ambiente de Merge, validar se o software funciona
+						devidamente como esperado. Os principais objetivos deste ambiente são:
+							<ul>
+								<li>Atestar se o software funciona da forma esperada pelo cliente no ambiente proposto;</li>
+								<li>Identificar oportunidades de correção e aplicar os ajustes correlatos à aplicação;</li>
+								<li>Obter o aceite do produto de software pelo cliente;</li>
+								<li>Registrar sugestões para as próximas versões da aplicação.</li>
+							</ul>
+						<br>
+						<li><strong>Ambiente de PRODLIKE:</strong> O papel deste ambiente é tentar ser 
+						o mais próximo da realidade, ou seja, ele deve ser uma réplica perfeita do ambiente de produção e por isso
+						deve-se utilizar as mesmas características do ambiente de produção.</li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- FIM INFORMAÇÕES -->
+	
+    <!-- conteudo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            <div class="bs-callout bs-callout-danger">
+                <h4 class="tituloLib"><u>Esteira de Implantação</u></h4>
+                <p>Segundo o levantamento da <a href="http://images.reg.techweb.com/Web/UBMTechweb/%7B6966690d-b811-418c-a95d-1ccf27e3ab4c%7D_State_of_DevOps_Final.pdf?_mc=we_x_x_le_tsnr_intplv_x_x-reporttypage&elqTrackId=294f8821356c464facade43ff42802aa&elqaid=2795&elqat=2" target="_blank">
+				State of DevOps de 2018</a>, 
+				a maior motivação para adoção de <i><b>DevOps</i></b> é necessidade de melhorar qualidade e performance de aplicações. Para cumprir estes desafios,
+				sem perder agilidade no desenvolvimento, é evidente a necessidade de adotar uma
+				esteira de entregas contínuas(pipeline). A <a href="#imgEsteira"> imagem</a> acima detalha bem esta esteira empregada no momento.</p>
+				
+				<!-- Atributos -->            
+                <!-- INICIO Ferramentas-->
+                <br />
+                <h4 id="box-ferramentas" class="subtileLib bs-callout bs-callout-danger">Ferramentas</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								<ul>
+									<li><a href="https://gitforwindows.org/">Git for Windows</a></li>
+									<li><a href="http://mirror.nbtelecom.com.br/apache//ant/binaries/apache-ant-1.10.5-bin.zip">ANT Migration Tools</a></li>
+									<li><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java JDK</a></li>
+									<li><a href="https://code.visualstudio.com/download">Visual Studio Code (Opcional)</a></li>
+								</ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                  <!-- Ferramentas FIM -->
+				<!-- INICIO conf ambiente-->
+                <br />
+                <h4 id="box-confAmbiente" class="subtileLib bs-callout bs-callout-danger">Configuração do Ambiente</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Após a instalação de todas as ferramentas listadas acima, é necessário fazer algumas configurações para a implantação dos pacotes. Caso as seguintes variáveis de ambiente não forem instaladas automaticamente, é preciso configurá-las de acordo com as informações a seguir.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active "><a href="#box1-ambiente">Variáveis de Ambiente</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="box1-ambiente">
+                        <pre>
+						<span><ul><li>JAVA_HOME : C:\Program Files\Java\jdk1.8.0_161</li><li>CLASSPATH : ;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\htmlconverter.jar;%JAVA_HOME%\jre\lib;%JAVA_HOME%\jre\lib\rt.jar</li><li>ANT_HOME : C:\apache-ant-1.10.5</li><li>ANT_OPTS : -Dhttp.proxyHost=10.213.8.100 -Dhttp.proxyPort=8080</li><li>PATH : %JAVA_HOME%\bin;%ANT_HOME%\bin</li></ul></span></pre>
+                    </div>
+                </div>
+				<br>
+				<div class="aviso-interno-blocos alert-information box-shadow">
+					<span>Agora mostraremos como fazer o clone no Git do projeto, para isso deveremos seguir a criação do diretório a seguir: </span>
+				</div>
+				<br>
+				<ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#box1-ambiente">Diretório</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="box1-ambiente">
+                        <pre><ul>
+								<li>Deveremos entrar no diretorio C:/ e criar uma pasta com o nome de "workspace-vivo".</li><li>Dentro da pasta que criamos no passo anterior, deveremos criar mais duas sub-pastas com os nomes "branchDeveloper" e "deployVivo"</li>
+								<li>Dentro da pasta branchDeveloper:<ul><li> Clicar com o botão direito do mouse e selecionar a opção: Git Bash Here.</li></ul></li>
+								<li>Dentro da pasta deployVivo:<ul><li>Fazer o download do arquivo <a href="download/vivo-luiza-ci.zip" download>vivo-luiza-ci.zip</a> e extraí-lo na pasta(deployVivo).</li></ul></li>
+						</ul></pre>
+                    </div>
+                </div>
+                <!-- conf ambiente FIM -->
+				
+				<!-- horarios das janelas-->
+				<br />
+                <h4 id="box-horario " class="subtileLib bs-callout bs-callout-danger">Horários das Janelas</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+							<span>
+								Os Horários estão sujeitos a mudanças, mas por determinação parcial durante o decorrer do dia terão três janelas
+								em distintos horários para a <i><b>Esteira de Implementação</b></i>. Os horários pré-determinados seguem abaixo:
+							</span>
+							<br><br><br>
+							
+                            <table>
+								<tr>
+									<th>Segunda</th>
+									<th>Terça</th>
+									<th>Quarta</th>
+									<th>Quinta</th>
+									<th>Sexta</th>
+								  </tr>
+								  <tr>
+									<td class="hora">10:30 hrs</td>
+									<td class="hora">10:30 hrs</td>
+									<td class="hora">10:30 hrs</td>
+									<td class="hora">10:30 hrs</td>
+									<td class="hora">10:30 hrs</td>
+								  </tr>
+								  <tr>
+									<td class="hora">14:30 hrs</td>
+									<td class="hora">14:30 hrs</td>
+									<td class="hora">14:30 hrs</td>
+									<td class="hora">14:30 hrs</td>
+									<td class="hora">14:30 hrs</td>
+								  </tr>
+								  <tr>
+									<td class="hora">16:30 hrs</td>
+									<td class="hora">16:30 hrs</td>
+									<td class="hora">16:30 hrs</td>
+									<td class="hora">16:30 hrs</td>
+									<td class="hora">16:30 hrs</td>
+								  </tr>
+								</table>
+								<br>
+								<div class="title-table">
+									<p>Tabela de Horários Semanais.</p>
+								</div>
+								<br><br>
+								<span>
+									<i><strong>Obs:</i></strong> Os pacotes que forem lançados depois das 10:30 hrs só poderão ter seu fluxo iniciado 
+									na próxima janela ás 14:30 hrs, os pacotes que não forem lançados até as 14:30 hrs só poderão ter fluxo inicado na próxima
+									janela ás 16:30 hrs. E por fim os pacotes que não forem lançados na Esteira de Implementação até as 16:30 hrs, só poderão
+									ter seu fluxo iniciado no próximo dia respeitando os horários. 
+									
+								</span>
+						</div>
+                    </div>
+                </div>
+				
+                <br>
+				
+				
+				
+				<!-- INICIO passo a passo-->
+                <br />
+                <h4 id="box-passos" class="subtileLib bs-callout bs-callout-danger">Passo a Passo</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <p>
+								Abaixo segue um pequeno tutorial explicando qual o passo a passo correto que deve ser feito pelos <i><b>DevOps</i></b>
+								durante todo o processo da Esteira de Implementação.
+								Lembrando:
+							<ul>
+								<li><b><i>Deploy (Implatação): </b></i></li>    Aba qual corresponde a implantação durante todos os ambientes.
+								<li><b><i>Merge (União): </b></i></li> Aba qual corresponde a união de todos arquivos para o Git, depois de todo processo
+								de implatação tiver sido finalizado com "sucesso".
+							</ul>
+							</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+				
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#box-passos1">Deploy</a></li>
+                    <li role="presentation"><a href="#box-passos2">Merge</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="box-passos1">
+                        <pre><code>
+						<!--Modal Passo a Passo-->
+				<div class="w3-container ">
+						<img src="img/start.png" class="imgModalLeft01" height="10%" width="10%" ></img>
+						
+						<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-left">Passos Iniciais</button>
+							<div id="id01" class="w3-modal" >
+								<div class="w3-modal-content w3-borda ">
+									<img src="img/logo-salesforce.png" class="imgModalLeft" height="10%" width="10%" ></img>
+									<img src="img/anot.png" class="imgModalLeft02" height="10%" width="10%" ></img>
+										<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+									
+									<div>
+											<p><ul><li>Inicialmente entrar no grupo Esteira de Implantação no Microsoft Teams e baixar os pacotes dos projetos que serão realizados os deploys.</li><li>Extrair os pacotes no diretório ...Deploy/SRC. Caso haja arquivos na pasta ...Deploy/SRC de implantações anteriores estes podem ser removidos. </li><li>Atualizar os cards no grupo do Teams: <b><i>Bucket -> Em Andamento</b></i><b><i>, Progresso -> Em Andamento</b></i><b><i>, data de ínicio -> data atual;</b></i></li><li>Caso haja mais de um pacote para ser implantado, os seguintes passos devem ser seguidos: <ul><li>Concatenar os metadados em apenas um arquivo <b><i>"package.xml"</i></b></ul></li><ul><li>Verificar a existência de metadados idênticos de pacotes distintos,caso haja deve ser realizado o merge dos metadados em comuns, ex: Objects, Classes, etc.</ul></li><ul><li>Sempre ordenar os metadados por ordem alfabética respeitando a ordem: 1° "types", 2° "Members"...</ul></li></p>		
+									</div>
+									<footer class="FooterModal" >
+										<p>Passos Iniciais</p>
+									</footer>
+								</div>
+							</div>
+						<img src="img/seta.png" class="imgModalLeft03" height="10%" width="10%" ></img>
+						<button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black botonAjust">Implatação Merge</button>
+							<div id="id02" class="w3-modal" >
+								<div class="w3-modal-content w3-borda ">
+									<img src="img/logo-salesforce.png" class="imgModalLeft" height="10%" width="10%" ></img>
+									<img src="img/anot.png" class="imgModalLeft02" height="10%" width="10%" ></img>
+										<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+									
+									<div>
+											<li>Implantação no ambiente <strong>MERGE:</strong><ul><li>Depois de realizar a montagem do pacote no diretorio ...Deploy/SRC, através do Visual Studio Code clicar em:<ul><li><b><i>Terminal</b></i>-> <b><i>Run Tasks</b></i>-><b><i>Selecionar DeployToMerge</b></i></li></ul></li></li></ul><ul><li>Caso a implantação não falhe, atualizar o card no teams: <b><i>Bucket -> Merge, Comentários: Pacote Implantado em Merge.</b></i></li></ul>
+									</div>
+									<footer class="FooterModal" >
+										<p>Implatação Merge</p>
+									</footer>
+								</div>
+							</div>
+						<img src="img/seta.png" class="imgModalLeft04" height="10%" width="10%" ></img>
+						<button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-black botonAjust02">Implatação UAT</button>
+							<div id="id03" class="w3-modal" >
+								<div class="w3-modal-content w3-borda ">
+									<img src="img/logo-salesforce.png" class="imgModalLeft" height="10%" width="10%" ></img>
+									<img src="img/anot.png" class="imgModalLeft02" height="10%" width="10%" ></img>
+										<span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+									
+									<div>
+											<li>Implantação no ambiente <strong>UAT:</strong><ul><li>Visual Studio code   ->   Terminal   ->   Run Tasks   ->  deployToUAT</li><li>Entrar na ORG de UAT para acompanhar a implantação.</li></ul></li>
+									</div>
+									<footer class="FooterModal" >
+										<p>Implatação UAT</p>
+									</footer>
+								</div>
+							</div>
+							
+							<img src="img/seta.png" class="imgModalLeft05" height="10%" width="10%" ></img>
+							<button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-black botonAjust03">Implatação PRODLIKE</button>
+							<div id="id04" class="w3-modal" >
+								<div class="w3-modal-content w3-borda ">
+									<img src="img/logo-salesforce.png" class="imgModalLeft" height="10%" width="10%" ></img>
+									<img src="img/anot.png" class="imgModalLeft02" height="10%" width="10%" ></img>
+										<span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+									
+									<div>
+										<li>Implantação no ambiente <strong>PRODLIKE:</strong><ul><li>Visual Studio code   ->   Terminal   ->   Run Tasks   ->  deployToPRODLIKE</li><li>Entrar na ORG de PRODLIKE para acompanhar a implantação.</li></ul></li>
+									</div>
+									<footer class="FooterModal" >
+										<p>Implatação PRODLIKE</p>
+									</footer>
+								</div>
+							</div>				
+							<img src="img/deploy.png" class="w3-right" height="10%" width="10%" ></img>
+						</div>
+				
+						</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="box-passos2">
+                       <pre class="prime"><code><span>No passo de Merge, você deve esperar que tudo aconteça corretamente durante o processo de implantação durante todos os ambientes, somente assim será possível realizar este passo. Para este passo você deve atentar-se ao seguinte:
+							<ul>
+								<li><b><i>Tipos de metadados que podem subir sem realizar o merge (união):</b></i></li>
+								<ul><li>Classes</li></ul>
+								<ul><li>Visual Force Page</li></ul>
+								<ul><li>Lightning Component (Aura)</li></ul>
+								<ul><li>Flow</li></ul>
+								<ul><li>Triggers</li></ul>
+								
+								<li><b><i>Tipos de metadados que devem sempre realizar o merge (união):</b></i></li>
+								<ul><li>Workflows</li></ul>
+								<ul><li>Custom Labels</li></ul>
+								<ul><li>Objects</li></ul>
+								<ul><li>Profiles</li></ul>
+							</ul>
+					   <p>Para finalização de todo processo, o <b><i>DevOps</i></b> deve realizar o <b><i>commit</i></b> de tudo que foi alterado e posteriormente garantir de realizar o <b><i>commit</i></b> para que sua Branch esteja atualizada para futuras fases de implantação e merge. Depois é somente alterar os cards no teams colocando o Bucket como "finalizado" e o progesso como "concluído"</p>
+					   </code></span>
+                    </div>                       
+                </div>
+                  <!-- passo a passo FIM -->	
+				  <!-- INICIO banco de erros-->
+                <br />
+                <h4 class="bs-callout bs-callout-danger" id="box-erros" class="subtileLib">Banco de Erros</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>
+								Description here.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <ul class="nav nav-tabs codigo">
+                    <li role="presentation" class="active"><a href="#box-passoss1">Deploy</a></li>
+                    <li role="presentation"><a href="#box-passoss2">Merge</a></li>
+                </ul>
+				
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="box-passoss1">
+                        <pre><code>
+						<span>
+							<table>
+								<tr>
+									<th>Nome da API</th>
+									<th>Tipo</th>
+									<th>Mensagem</th>
+									<th>Ação</th>
+								</tr>
+								  <tr>
+									<td>Opportunity.WelcomeMVE</td>
+									<td>Alerta por email do fluxo de trabalho </td>
+									<td>In field: template - no EmailTemplate named unfiled$public/WelcomeMVE found</td>
+									<td>Reporta error, mudar Bucket para "Aguardando Correção"</td>
+								  </tr>
+								  <tr>
+									<td>Opportunity.ProcessUpdateCreate-7</td>
+									<td>Versão do Fluxo</td>
+									<td>myRule_42_A1(Chamada de ação) - Não foi possível localizar uma ação com o nome e o tipo especificado por você</td>
+									<td>Reporta error, mudar Bucket para "Aguardando Correção"</td>
+								  </tr>
+								  <tr>
+									<td>AtualizaCreditoControllerTest</td>
+									<td>OwnerWithoutCanal</td>
+									<td>System.DmlException: Insert failed. First exception on row 0; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST,Canal: valor incorreto para o campo de lista de opções restrita[Canal__c]</td>
+									<td>Reporta error, mudar Bucket para "Aguardando Correção"</td>
+								  </tr>
+								</table>
+						</span>
+						</code>
+						</pre>
+                    </div>  
+                    <div role="tabpanel" class="tab-pane" id="box-passoss2">
+                       <pre class="prime"><code>Erros em Merge:</code></pre>
+                    </div>                       
+                </div>
+                  <!-- banco de erros FIM -->	
+				<!-- FUNÇÕES FIM --> 				                       
+        </div>              
+		
+		                <!-- PAGINAS Produto MODELO -->
+                <div class="bs-callout bs-callout-danger">
+                    
+                <h4 class="tituloLib"><u>MODELO</u></h4>
+                <br>
+					
+                <!-- PagModelo1 INICIO -->
+                <h4 id="box-PagModelo1" class="subtileLib">PagModelo1.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+								<li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo1 FIM -->
+                    
+                <!-- PagModelo2 INICIO -->
+                <h4 id="box-PagModelo2" class="subtileLib">PagModelo2.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+								<li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+								<li><a class="page-scroll" href="#box-RedimensionarTela" id="RedimensionarTela">RedimensionarTela()</a></li>
+                            </ul>                            
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo2 FIM --> 
+
+                <!-- PagModelo3 INICIO -->
+                <h4 id="box-PagModelo3" class="subtileLib">PagModelo3.aspx</h4>
+                <div class="row space-b">
+                    <div class="col-md-12">
+                        <div class="aviso-interno-blocos alert-information box-shadow">
+                            <i class="fa fa-exclamation-circle"></i>
+                            Lista de functions encontradas nesta página:
+                            <br>
+                            <ul class="">
+                                <li><a class="page-scroll" href="#box-BlockChar" id="BlockChar">BlockChar()</a></li>
+                                <li><a class="page-scroll" href="#box-CorrigeData" id="CorrigeData">CorrigeData()</a></li>
+                                <li><a class="page-scroll" href="#box-ExecutarJS" id="ExecutarJS">ExecutarJS()</a></li>                         
+                                <li><a class="page-scroll" href="#box-ManterScroll" id="ManterScroll">ManterScroll()</a></li>   
+                                <li><a class="page-scroll" href="#box-SetarFoco" id="SetarFoco">SetarFoco()</a></li> 
+                                <li><a class="page-scroll" href="#box-setaSubmitPopup" id="setaSubmitPopup">setaSubmitPopup()</a></li>
+								<li><a class="page-scroll" href="#box-TurnImage" id="TurnImage">TurnImage()</a></li>         
+                              </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- PagModelo3 FIM -->                  
+            </div>
+            <!-- PAGINAS MODELO FIM -->
+      </div>                
+    </div>    
+	
+    <!-- conteudo fim -->
+
+    <!-- back to top -->
+    <div class="btn-subir" id="back-top" style="position:fixed; right:17px; bottom:20px;">
+      <a href="#" class="subir"><img src="img/menu-subir.png" alt=""></a>
+    </div>
+    <!-- back to top fim -->
+
+    <!-- anexos -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+  </body>
+</html>
